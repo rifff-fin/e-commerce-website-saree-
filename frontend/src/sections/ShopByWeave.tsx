@@ -4,14 +4,18 @@ import { useMeta } from '../hooks/useMeta';
 import { useProducts } from '../hooks/useProducts';
 import { Photo } from '../components/product/Photo';
 
-// The tile photo for each weave (the first saree of that type otherwise)
+// The tile photo for each weave
 const COVER: Record<string, string> = {
-  jamdani: '/products/jamdani-grey-red-01.webp',
-  'katan-benarasi': '/products/benarasi-purple-01.webp',
-  'rajshahi-silk': '/products/rajshahi-silk-magenta-01.webp',
-  'tangail-tant': '/products/tant-pink-01.webp',
-  muslin: '/products/muslin-ivory-01.webp',
-  cotton: '/products/cotton-orange-print-01.webp',
+  jamdani: '/products/khoyeri-buti-jamdani.webp',
+  'katan-benarasi': '/products/khoyeri-jaal-benarasi.webp',
+  'rajshahi-silk': '/products/tota-sobuj-rajshahi-silk.webp',
+  'tangail-tant': '/products/nil-paar-tangail.webp',
+  monipuri: '/products/beige-khoyeri-monipuri.webp',
+  'half-silk': '/products/shonali-buti-ivory-half-silk.webp',
+  kantha: '/products/tia-sui-kantha-cotton.webp',
+  'georgette-chiffon': '/products/koffee-sheer-chiffon.webp',
+  'tissue-organza': '/products/akashi-tissue-organza.webp',
+  cotton: '/products/holud-paisley-cotton.webp',
 };
 
 /** Tall arched tiles, one per weave that has sarees in stock. */
@@ -20,6 +24,9 @@ export function ShopByWeave() {
   const { data } = useProducts({ limit: '1' });
   const counts = data?.facets.types ?? {};
   const types = (meta?.types ?? []).filter((type) => (counts[type.slug] ?? 0) > 0);
+  const soon = data
+    ? (meta?.types ?? []).filter((type) => !counts[type.slug]).map((t) => t.name)
+    : [];
 
   return (
     <section className="weaves" id="weaves" aria-labelledby="weaves-title">
@@ -49,7 +56,7 @@ export function ShopByWeave() {
             </li>
           ))}
         </ul>
-        {types.length > 0 && <p className="weave-soon">{weaves.soon}</p>}
+        {soon.length > 0 && <p className="weave-soon">{weaves.soon(soon)}</p>}
       </div>
     </section>
   );

@@ -38,8 +38,8 @@ export const nav = {
 
 export const hero = {
   accent: 'শাড়ি',
-  primary: 'Shop Jamdani',
-  primaryHref: '/shop?type=jamdani',
+  primary: 'Shop the collection',
+  primaryHref: '/shop',
   secondary: 'New arrivals',
   secondaryHref: '/shop?sort=new',
   pause: 'Pause slideshow',
@@ -51,7 +51,7 @@ export const weaves = {
   titleBn: 'বুনন অনুযায়ী',
   intro: 'Every saree here is one of these weaves, and each card says which.',
   count: (n: number) => (n === 1 ? '1 saree' : `${n} sarees`),
-  soon: 'Monipuri, half-silk, Kantha stitch, georgette and tissue are arriving soon.',
+  soon: (names: string[]) => `${names.join(', ')} arriving soon.`,
 };
 
 export const weaveStory = {
@@ -75,26 +75,26 @@ export const occasionEdits = {
     {
       name: 'Wedding',
       bn: 'বিয়ে',
-      note: 'Katan, Benarasi and red Jamdani',
-      image: '/products/benarasi-red-01',
+      note: 'Katan, Benarasi and red tissue',
+      image: '/products/khoyeri-jaal-benarasi',
     },
     {
       name: 'Holud',
       bn: 'হলুদ',
-      note: 'Yellow, green and bright Jamdani',
-      image: '/products/jamdani-yellow-01',
+      note: 'Marigold, parrot green and bright prints',
+      image: '/products/genda-holud-silk',
     },
     {
       name: 'Eid',
       bn: 'ঈদ',
-      note: 'Silk and half-silk for the day and the dinner',
-      image: '/products/rajshahi-silk-red-green-01',
+      note: 'Tissue, silk and soft silk for the day and the dinner',
+      image: '/products/sage-tissue-silk',
     },
     {
       name: 'Pohela Boishakh',
       bn: 'বৈশাখ',
-      note: 'White and red, cotton and tant',
-      image: '/products/tangail-white-red-01',
+      note: 'Red and white, cotton and tant',
+      image: '/products/lal-pakhi-mul-cotton',
       short: 'Boishakh',
     },
   ],
@@ -133,14 +133,20 @@ export const reviews = {
 export const lookbook = {
   title: 'From the lookbook',
   handle: brand.instagram,
-  note: 'Photos: licensed placeholders until the client’s own shoot.',
+  note: 'Styled looks from the collection.',
   images: [
-    { src: '/products/jamdani-display-01', alt: 'Jamdani sarees displayed at a shop in Sonargaon' },
-    { src: '/products/tant-rolls-01', alt: 'Rolled cotton tant sarees in many colours' },
-    { src: '/products/benarasi-purple-03', alt: 'Gold medallion woven into purple Benarasi silk' },
-    { src: '/products/rajshahi-silk-wax-01', alt: 'Hand-drawn wax design on Rajshahi silk' },
-    { src: '/products/jamdani-folded-01', alt: 'Folded Jamdani sarees in yellow, white and pink' },
-    { src: '/products/benarasi-market-01', alt: 'Benarasi sarees on wooden display blocks' },
+    {
+      src: '/products/tia-sui-kantha-cotton',
+      alt: 'Lime green Kantha cotton saree with pink tassels',
+    },
+    {
+      src: '/products/alpona-gram-print-cotton',
+      alt: 'Cream cotton saree with a folk-figure print',
+    },
+    { src: '/products/sobuj-sona-tissue', alt: 'Green and gold tissue saree in the sun' },
+    { src: '/products/kalo-buti-cotton', alt: 'Black cotton saree with woven motifs' },
+    { src: '/products/gulabi-rupali-katan', alt: 'Rose mauve katan silk with silver zari' },
+    { src: '/products/nil-paar-tangail', alt: 'Ivory handloom saree with a navy and gold border' },
   ],
 };
 
@@ -383,6 +389,8 @@ export const wishlist = {
 
 export const credits = {
   title: 'Photo credits',
+  // TODO(client): confirm the store owns or is licensed to use every product photo
+  own: 'All product photos on this site belong to Shari Kotha or are used with permission.',
   intro:
     'The photos in this store are placeholders, used under the licences below until the client’s own photoshoot replaces them. Each was cropped to a 3:4 portrait and converted to WebP. Thank you to every photographer who shares their work.',
   by: 'by',

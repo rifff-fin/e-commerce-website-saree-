@@ -1,440 +1,81 @@
-// Seed catalog: 32 sarees. TODO(client): names, prices and origins are placeholders until the
-// client confirms them. Every photo is a licensed placeholder (see content/images.json and the
-// /credits page) to be replaced by the client's own photoshoot through the admin panel.
-// Generated from the photo records; `credit` stays with each photo so the credits page and the
-// product gallery can show it.
+// Seed catalog: 37 sarees, one per photo supplied by the owner (content/images.json).
+// TODO(client): names, prices, fabrics and origins are placeholders until the client
+// confirms them; the photos' usage rights are also still to be confirmed.
 
 module.exports = [
   {
-    "slug": "raatrani-black-gold-jamdani",
-    "name": "Raatrani Black Jamdani",
-    "nameBn": "রাতরানি জামদানি",
-    "type": "Jamdani",
+    "slug": "gulmohor-mauve-soft-silk",
+    "name": "Gulmohor Mauve Soft Silk",
+    "nameBn": "গুলমোহর সফট সিল্ক",
+    "type": "Half-silk / Soft silk",
     "fabric": "Half-silk",
-    "weave": "Dhakai motifs in gold zari, woven paar",
-    "origin": "Narayanganj, Bangladesh",
-    "colors": [
-      "Black",
-      "Gold"
-    ],
-    "occasions": [
-      "Party",
-      "Eid",
-      "Wedding"
-    ],
-    "price": 18500,
-    "originalPrice": 19800,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean for the first few washes. Store folded in a soft cotton cloth and refold every few months so the motifs do not crease. Keep perfume off the fabric.",
-    "description": "A deep black ground with gold motifs worked in by hand, one by one, on the loom. Sheer enough to fall well, with a woven paar that frames the drape.",
-    "images": [
-      {
-        "url": "/products/jamdani-black-gold-01.webp",
-        "alt": "Black Dhakai Jamdani with gold-thread motifs and a woven paar, BSCIC Jamdani Palli, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_10.jpg"
-        }
-      },
-      {
-        "url": "/products/jamdani-black-gold-02.webp",
-        "alt": "Detail of a black Jamdani with gold motifs on display at BSCIC Jamdani Palli, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_11.jpg"
-        }
-      }
-    ],
-    "popularity": 90,
-    "isNewArrival": true,
-    "bestSeller": true,
-    "active": true
-  },
-  {
-    "slug": "tara-buti-black-jamdani",
-    "name": "Tara Buti Black Jamdani",
-    "nameBn": "তারা বুটি জামদানি",
-    "type": "Jamdani",
-    "fabric": "Cotton",
-    "weave": "Scattered copper-tone buti",
-    "origin": "Narayanganj, Bangladesh",
-    "colors": [
-      "Black",
-      "Gold"
-    ],
-    "occasions": [
-      "Party",
-      "Eid"
-    ],
-    "price": 12800,
-    "originalPrice": 12800,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean for the first few washes. Store folded in a soft cotton cloth and refold every few months so the motifs do not crease. Keep perfume off the fabric.",
-    "description": "Small copper-toned buti scattered across a fine black cotton ground, like stars on a clear night. Light to wear through a long evening.",
-    "images": [
-      {
-        "url": "/products/jamdani-black-copper-01.webp",
-        "alt": "Sheer black Jamdani with copper-tone buti motifs, BSCIC Jamdani Palli, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_5.jpg"
-        }
-      },
-      {
-        "url": "/products/jamdani-black-copper-02.webp",
-        "alt": "Close-up of one copper buti on a sheer black Jamdani, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_6.jpg"
-        }
-      }
-    ],
-    "popularity": 89,
-    "isNewArrival": false,
-    "bestSeller": true,
-    "active": true
-  },
-  {
-    "slug": "dorakata-black-jamdani",
-    "name": "Dorakata Black Jamdani",
-    "nameBn": "ডোরাকাটা জামদানি",
-    "type": "Jamdani",
-    "fabric": "Half-silk",
-    "weave": "Gold stripes with buti between",
-    "origin": "Narayanganj, Bangladesh",
-    "colors": [
-      "Black",
-      "Gold"
-    ],
-    "occasions": [
-      "Party",
-      "Puja"
-    ],
-    "price": 16200,
-    "originalPrice": 17500,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean for the first few washes. Store folded in a soft cotton cloth and refold every few months so the motifs do not crease. Keep perfume off the fabric.",
-    "description": "Bands of gold run across the body with a motif woven between each stripe. A graphic Jamdani that still reads as classic.",
-    "images": [
-      {
-        "url": "/products/jamdani-black-stripe-01.webp",
-        "alt": "Black Jamdani with gold stripes and motifs, BSCIC Jamdani Palli, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_8.jpg"
-        }
-      },
-      {
-        "url": "/products/jamdani-black-stripe-02.webp",
-        "alt": "Black striped Jamdani held up to the light, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_9.jpg"
-        }
-      }
-    ],
-    "popularity": 38,
-    "isNewArrival": false,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "golapi-paar-black-jamdani",
-    "name": "Golapi Paar Jamdani",
-    "nameBn": "গোলাপি পাড় জামদানি",
-    "type": "Jamdani",
-    "fabric": "Cotton",
-    "weave": "Dhakai motifs, contrast paar",
-    "origin": "Narayanganj, Bangladesh",
-    "colors": [
-      "Black",
-      "Pink",
-      "Gold"
-    ],
-    "occasions": [
-      "Eid",
-      "Puja"
-    ],
-    "price": 11500,
-    "originalPrice": 11500,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean for the first few washes. Store folded in a soft cotton cloth and refold every few months so the motifs do not crease. Keep perfume off the fabric.",
-    "description": "Black and bright pink, a pairing Dhaka weavers have loved for generations. The pink paar and anchal lift the gold motifs on the body.",
-    "images": [
-      {
-        "url": "/products/jamdani-pink-black-02.webp",
-        "alt": "Folded black and pink Jamdani sarees, BSCIC Jamdani Palli, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_3.jpg"
-        }
-      },
-      {
-        "url": "/products/jamdani-pink-black-01.webp",
-        "alt": "Pink Jamdani paar beside a black Jamdani with gold motifs, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_2.jpg"
-        }
-      }
-    ],
-    "popularity": 57,
-    "isNewArrival": true,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "shapla-grey-red-jamdani",
-    "name": "Shapla Grey Jamdani",
-    "nameBn": "শাপলা জামদানি",
-    "type": "Jamdani",
-    "fabric": "Cotton",
-    "weave": "Self-weave motifs, red paar",
-    "origin": "Narayanganj, Bangladesh",
-    "colors": [
-      "Grey",
-      "Red"
-    ],
-    "occasions": [
-      "Pohela Boishakh",
-      "Holud"
-    ],
-    "price": 9800,
-    "originalPrice": 10500,
-    "withBlousePiece": false,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0
-    },
-    "care": "Dry clean for the first few washes. Store folded in a soft cotton cloth and refold every few months so the motifs do not crease. Keep perfume off the fabric.",
-    "description": "Soft grey cotton with red motifs and a broad red paar: a quieter take on the Boishakh colours that also works for a daytime holud.",
-    "images": [
-      {
-        "url": "/products/jamdani-grey-red-01.webp",
-        "alt": "Grey Jamdani with red motifs and a red paar",
-        "credit": {
-          "author": "Atudu",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_DSC_0500.JPG"
-        }
-      },
-      {
-        "url": "/products/jamdani-grey-red-02.webp",
-        "alt": "Close-up of red Jamdani motifs on a grey ground",
-        "credit": {
-          "author": "Atudu",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_DSC_0503.JPG"
-        }
-      }
-    ],
-    "popularity": 86,
-    "isNewArrival": false,
-    "bestSeller": true,
-    "active": true
-  },
-  {
-    "slug": "holud-buti-jamdani",
-    "name": "Holud Buti Jamdani",
-    "nameBn": "হলুদ বুটি জামদানি",
-    "type": "Jamdani",
-    "fabric": "Cotton",
-    "weave": "All-over buti",
-    "origin": "Narayanganj, Bangladesh",
-    "colors": [
-      "Yellow"
-    ],
-    "occasions": [
-      "Holud"
-    ],
-    "price": 8900,
-    "originalPrice": 8900,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean for the first few washes. Store folded in a soft cotton cloth and refold every few months so the motifs do not crease. Keep perfume off the fabric.",
-    "description": "Sunflower yellow with tiny self-coloured buti all over. Made for the gaye holud, and for anyone who likes to be the brightest person in the room.",
-    "images": [
-      {
-        "url": "/products/jamdani-yellow-01.webp",
-        "alt": "Yellow Jamdani with all-over buti, shown at a stall in Sonargaon, Narayanganj",
-        "credit": {
-          "author": "Armanaziz",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_Saree_Sale_Sonargaon.jpg"
-        }
-      }
-    ],
-    "popularity": 55,
-    "isNewArrival": true,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "gulabi-buti-jamdani",
-    "name": "Gulabi Buti Jamdani",
-    "nameBn": "গোলাপি বুটি জামদানি",
-    "type": "Jamdani",
-    "fabric": "Half-silk",
-    "weave": "Scattered gold and white buti",
-    "origin": "Narayanganj, Bangladesh",
-    "colors": [
-      "Pink",
-      "Gold"
-    ],
-    "occasions": [
-      "Eid",
-      "Party"
-    ],
-    "price": 13500,
-    "originalPrice": 14200,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean for the first few washes. Store folded in a soft cotton cloth and refold every few months so the motifs do not crease. Keep perfume off the fabric.",
-    "description": "A rose-pink half-silk with gold and white buti and a fine striped paar. It catches the light softly rather than shining.",
-    "images": [
-      {
-        "url": "/products/jamdani-pink-01.webp",
-        "alt": "Pink Jamdani with gold and white buti, BSCIC Jamdani Palli, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj_4.jpg"
-        }
-      }
-    ],
-    "popularity": 34,
-    "isNewArrival": false,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "lal-tara-jamdani",
-    "name": "Lal Tara Jamdani",
-    "nameBn": "লাল তারা জামদানি",
-    "type": "Jamdani",
-    "fabric": "Half-silk",
-    "weave": "Gold buti, woven anchal",
-    "origin": "Narayanganj, Bangladesh",
-    "colors": [
-      "Red",
-      "Gold"
-    ],
-    "occasions": [
-      "Wedding",
-      "Holud"
-    ],
-    "price": 22000,
-    "originalPrice": 23500,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean for the first few washes. Store folded in a soft cotton cloth and refold every few months so the motifs do not crease. Keep perfume off the fabric.",
-    "description": "Bridal red with small gold stars. A Jamdani to wear for the akd or the reception, and to keep for the next generation.",
-    "images": [
-      {
-        "url": "/products/jamdani-red-01.webp",
-        "alt": "Red Jamdani with small gold buti, BSCIC Jamdani Palli, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj_6.jpg"
-        }
-      }
-    ],
-    "popularity": 90,
-    "isNewArrival": false,
-    "bestSeller": true,
-    "active": true
-  },
-  {
-    "slug": "khoyeri-maroon-jamdani",
-    "name": "Khoyeri Maroon Jamdani",
-    "nameBn": "খয়েরি জামদানি",
-    "type": "Jamdani",
-    "fabric": "Half-silk",
-    "weave": "Dhakai motifs in white",
-    "origin": "Narayanganj, Bangladesh",
+    "weave": "Zari border with black edge",
+    "origin": "Bangladesh",
     "colors": [
       "Maroon",
-      "White"
+      "Gold",
+      "Black"
     ],
     "occasions": [
-      "Wedding",
-      "Eid"
+      "Eid",
+      "Party",
+      "Office"
     ],
-    "price": 24500,
-    "originalPrice": 24500,
+    "price": 6800,
+    "originalPrice": 7400,
     "withBlousePiece": true,
-    "handwoven": true,
+    "handwoven": false,
     "length": {
       "sareeMetres": 5.5,
       "blouseMetres": 0.8
     },
-    "care": "Dry clean for the first few washes. Store folded in a soft cotton cloth and refold every few months so the motifs do not crease. Keep perfume off the fabric.",
-    "description": "Deep maroon with motifs woven in white, the contrast every weaver shows off first. Rich enough for a wedding guest, calm enough for Eid.",
+    "care": "Dry clean, or hand wash gently in cold water. Dry in shade and iron on low.",
+    "description": "A dusty mauve soft silk with a gold-and-black woven border. Muted enough for the office, rich enough for an Eid dinner.",
     "images": [
       {
-        "url": "/products/jamdani-maroon-white-01.webp",
-        "alt": "Maroon Jamdani with white motifs, opened at a shop in BSCIC Jamdani Palli, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj_8.jpg"
-        }
+        "url": "/products/gulmohor-mauve-soft-silk.webp",
+        "alt": "Dusty mauve soft silk saree with a gold and black woven border, worn with a black blouse",
+        "credit": null
+      }
+    ],
+    "popularity": 90,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "golapi-check-half-silk",
+    "name": "Golapi Check Half-Silk",
+    "nameBn": "গোলাপি চেক হাফ সিল্ক",
+    "type": "Half-silk / Soft silk",
+    "fabric": "Half-silk",
+    "weave": "Woven checks, green zari border",
+    "origin": "Bangladesh",
+    "colors": [
+      "Pink",
+      "Green",
+      "Gold"
+    ],
+    "occasions": [
+      "Eid",
+      "Office",
+      "Puja"
+    ],
+    "price": 5400,
+    "originalPrice": 5400,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean, or hand wash gently in cold water. Dry in shade and iron on low.",
+    "description": "Soft pink half-silk woven in fine gold checks, framed by a deep green zari border and banded pallu.",
+    "images": [
+      {
+        "url": "/products/golapi-check-half-silk.webp",
+        "alt": "Pale pink checked half-silk saree with a dark green zari border, worn with a green blouse",
+        "credit": null
       }
     ],
     "popularity": 59,
@@ -443,51 +84,576 @@ module.exports = [
     "active": true
   },
   {
-    "slug": "komola-peach-jamdani",
-    "name": "Komola Peach Jamdani",
-    "nameBn": "কমলা জামদানি",
-    "type": "Jamdani",
-    "fabric": "Cotton",
-    "weave": "Floral buti in red and cream",
-    "origin": "Narayanganj, Bangladesh",
+    "slug": "shonali-buti-ivory-half-silk",
+    "name": "Shonali Buti Ivory Half-Silk",
+    "nameBn": "সোনালি বুটি হাফ সিল্ক",
+    "type": "Half-silk / Soft silk",
+    "fabric": "Half-silk",
+    "weave": "Gold buti, olive zari border",
+    "origin": "Bangladesh",
     "colors": [
-      "Peach",
-      "Red"
+      "Ivory",
+      "Green",
+      "Gold"
+    ],
+    "occasions": [
+      "Puja",
+      "Eid",
+      "Wedding"
+    ],
+    "price": 7800,
+    "originalPrice": 8500,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean, or hand wash gently in cold water. Dry in shade and iron on low.",
+    "description": "Ivory half-silk scattered with gold buti and edged in a broad olive-green zari border. A quiet favourite for Puja mornings.",
+    "images": [
+      {
+        "url": "/products/shonali-buti-ivory-half-silk.webp",
+        "alt": "Ivory half-silk saree with gold buti and an olive green zari border, worn with a green blouse",
+        "credit": null
+      }
+    ],
+    "popularity": 88,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "kalo-buti-cotton",
+    "name": "Kalo Buti Cotton",
+    "nameBn": "কালো বুটি সুতি",
+    "type": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Woven motifs and striped paar",
+    "origin": "Bangladesh",
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "occasions": [
+      "Everyday",
+      "Office",
+      "Pohela Boishakh"
+    ],
+    "price": 2600,
+    "originalPrice": 2600,
+    "withBlousePiece": false,
+    "handwoven": true,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0
+    },
+    "care": "Hand or machine wash cold on a gentle cycle, separately for the first wash. Dry in shade and iron warm.",
+    "description": "Black cotton with off-white woven motifs and a striped paar. Soft, breathable and easy for every day.",
+    "images": [
+      {
+        "url": "/products/kalo-buti-cotton.webp",
+        "alt": "Black cotton saree with off-white woven motifs, worn by a woman sitting on stone steps",
+        "credit": null
+      }
+    ],
+    "popularity": 37,
+    "isNewArrival": false,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "chhapa-phul-ivory-cotton",
+    "name": "Chhapa Phul Ivory Cotton",
+    "nameBn": "ছাপা ফুল সুতি",
+    "type": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Hand block print",
+    "origin": "Bangladesh",
+    "colors": [
+      "Ivory",
+      "Black"
+    ],
+    "occasions": [
+      "Everyday",
+      "Office"
+    ],
+    "price": 2400,
+    "originalPrice": 2700,
+    "withBlousePiece": false,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0
+    },
+    "care": "Hand or machine wash cold on a gentle cycle, separately for the first wash. Dry in shade and iron warm.",
+    "description": "Ivory cotton hand block-printed with black flowers and a printed border. The everyday saree you reach for first.",
+    "images": [
+      {
+        "url": "/products/chhapa-phul-ivory-cotton.webp",
+        "alt": "Ivory cotton saree with black block-printed flowers and border, worn with a black blouse",
+        "credit": null
+      }
+    ],
+    "popularity": 56,
+    "isNewArrival": true,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "alpona-gram-print-cotton",
+    "name": "Gram Kotha Print Cotton",
+    "nameBn": "গ্রাম কথা সুতি",
+    "type": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Folk-figure print",
+    "origin": "Bangladesh",
+    "colors": [
+      "Ivory",
+      "Black"
+    ],
+    "occasions": [
+      "Everyday",
+      "Pohela Boishakh"
+    ],
+    "price": 2900,
+    "originalPrice": 2900,
+    "withBlousePiece": false,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0
+    },
+    "care": "Hand or machine wash cold on a gentle cycle, separately for the first wash. Dry in shade and iron warm.",
+    "description": "Cream cotton printed with dancing folk figures, trees and huts in charcoal. Light, textured and full of stories.",
+    "images": [
+      {
+        "url": "/products/alpona-gram-print-cotton.webp",
+        "alt": "Cream cotton saree printed with charcoal folk figures and trees",
+        "credit": null
+      }
+    ],
+    "popularity": 35,
+    "isNewArrival": false,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "kalo-lata-printed-silk",
+    "name": "Kalo Lata Printed Silk",
+    "nameBn": "কালো লতা প্রিন্টেড সিল্ক",
+    "type": "Rajshahi silk",
+    "fabric": "Silk",
+    "weave": "Floral print, zari border",
+    "origin": "Rajshahi, Bangladesh",
+    "colors": [
+      "White",
+      "Black",
+      "Gold"
+    ],
+    "occasions": [
+      "Party",
+      "Eid"
+    ],
+    "price": 8600,
+    "originalPrice": 9200,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean, or hand wash gently in cold water with a mild shampoo. Dry in shade and iron on low on the reverse.",
+    "description": "White silk printed with black climbing flowers, finished with a gold-and-black zari border and a banded pallu.",
+    "images": [
+      {
+        "url": "/products/kalo-lata-printed-silk.webp",
+        "alt": "White silk saree with black floral print and a gold zari border, worn with a black blouse",
+        "credit": null
+      }
+    ],
+    "popularity": 84,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "lal-kalo-block-print-cotton",
+    "name": "Lal Kalo Block Print Cotton",
+    "nameBn": "লাল কালো ব্লক প্রিন্ট",
+    "type": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Hand block print",
+    "origin": "Bangladesh",
+    "colors": [
+      "Red",
+      "Black",
+      "White"
+    ],
+    "occasions": [
+      "Everyday",
+      "Pohela Boishakh",
+      "Puja"
+    ],
+    "price": 2800,
+    "originalPrice": 2800,
+    "withBlousePiece": false,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0
+    },
+    "care": "Hand or machine wash cold on a gentle cycle, separately for the first wash. Dry in shade and iron warm.",
+    "description": "Deep red cotton block-printed in white, with a black pallu and zigzag border. Bold for Boishakh, easy for every day.",
+    "images": [
+      {
+        "url": "/products/lal-kalo-block-print-cotton.webp",
+        "alt": "Red cotton saree with white block print and a black zigzag border",
+        "credit": null
+      }
+    ],
+    "popularity": 60,
+    "isNewArrival": true,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "morich-paisley-cotton",
+    "name": "Morich Paisley Cotton",
+    "nameBn": "মরিচ পেইসলি সুতি",
+    "type": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Hand block print",
+    "origin": "Bangladesh",
+    "colors": [
+      "Orange",
+      "Black",
+      "Ivory"
+    ],
+    "occasions": [
+      "Everyday",
+      "Office"
+    ],
+    "price": 3100,
+    "originalPrice": 3400,
+    "withBlousePiece": false,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0
+    },
+    "care": "Hand or machine wash cold on a gentle cycle, separately for the first wash. Dry in shade and iron warm.",
+    "description": "Rust-red cotton with printed flowers, a black temple border and a paisley pallu in black and cream.",
+    "images": [
+      {
+        "url": "/products/morich-paisley-cotton.webp",
+        "alt": "Rust red cotton saree with printed flowers and a black and cream paisley pallu",
+        "credit": null
+      }
+    ],
+    "popularity": 39,
+    "isNewArrival": false,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "tia-sui-kantha-cotton",
+    "name": "Tia Sui Kantha Cotton",
+    "nameBn": "টিয়া সুই কাঁথা",
+    "type": "Kantha stitch",
+    "fabric": "Cotton",
+    "weave": "Hand embroidery with tassels",
+    "origin": "Bangladesh",
+    "colors": [
+      "Green",
+      "Pink"
+    ],
+    "occasions": [
+      "Holud",
+      "Party"
+    ],
+    "price": 6500,
+    "originalPrice": 6500,
+    "withBlousePiece": false,
+    "handwoven": true,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0
+    },
+    "care": "Hand wash gently in cold water, inside out, and dry in shade. Do not wring the embroidery.",
+    "description": "Parrot-green cotton with hand-embroidered peacock motifs and bright pink tassels on the pallu. Made for the holud.",
+    "images": [
+      {
+        "url": "/products/tia-sui-kantha-cotton.webp",
+        "alt": "Lime green cotton saree with embroidered peacock motifs and pink tassels",
+        "credit": null
+      }
+    ],
+    "popularity": 58,
+    "isNewArrival": true,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "holud-paisley-cotton",
+    "name": "Holud Paisley Cotton",
+    "nameBn": "হলুদ পেইসলি সুতি",
+    "type": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Hand block print",
+    "origin": "Bangladesh",
+    "colors": [
+      "Yellow",
+      "White"
+    ],
+    "occasions": [
+      "Holud",
+      "Everyday"
+    ],
+    "price": 2700,
+    "originalPrice": 2700,
+    "withBlousePiece": false,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0
+    },
+    "care": "Hand or machine wash cold on a gentle cycle, separately for the first wash. Dry in shade and iron warm.",
+    "description": "Mustard cotton block-printed with white leaves and paisleys. The easiest yellow for a gaye holud.",
+    "images": [
+      {
+        "url": "/products/holud-paisley-cotton.webp",
+        "alt": "Mustard yellow cotton saree with white block-printed leaves and paisleys",
+        "credit": null
+      }
+    ],
+    "popularity": 87,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "lal-pakhi-mul-cotton",
+    "name": "Lal Pakhi Mul Cotton",
+    "nameBn": "লাল পাখি মুল",
+    "type": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Printed birds, soft mul",
+    "origin": "Bangladesh",
+    "colors": [
+      "Red",
+      "White"
+    ],
+    "occasions": [
+      "Pohela Boishakh",
+      "Everyday"
+    ],
+    "price": 2300,
+    "originalPrice": 2500,
+    "withBlousePiece": false,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0
+    },
+    "care": "Hand or machine wash cold on a gentle cycle, separately for the first wash. Dry in shade and iron warm.",
+    "description": "Soft red mul cotton printed with little white birds and a patterned pallu. Light as a dupatta.",
+    "images": [
+      {
+        "url": "/products/lal-pakhi-mul-cotton.webp",
+        "alt": "Red mul cotton saree with small white printed birds, worn with a white blouse",
+        "credit": null
+      }
+    ],
+    "popularity": 56,
+    "isNewArrival": true,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "golap-roktim-sheer-saree",
+    "name": "Golap Roktim Sheer Saree",
+    "nameBn": "গোলাপ রক্তিম",
+    "type": "Georgette / Chiffon",
+    "fabric": "Georgette",
+    "weave": "Gold rose print, tasselled pallu",
+    "origin": "Bangladesh",
+    "colors": [
+      "Red",
+      "Gold"
+    ],
+    "occasions": [
+      "Party",
+      "Wedding"
+    ],
+    "price": 5600,
+    "originalPrice": 6200,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean or hand wash in cold water. Hang to dry and steam rather than iron.",
+    "description": "A sheer deep-red saree with large gold-traced roses on the pallu and tassels along the edge.",
+    "images": [
+      {
+        "url": "/products/golap-roktim-sheer-saree.webp",
+        "alt": "Sheer deep red saree with gold traced roses and a tasselled pallu",
+        "credit": null
+      }
+    ],
+    "popularity": 85,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "sage-tissue-silk",
+    "name": "Sage Tissue Silk",
+    "nameBn": "সেজ টিস্যু সিল্ক",
+    "type": "Tissue / Organza",
+    "fabric": "Tissue",
+    "weave": "Gold buti and zari border",
+    "origin": "Bangladesh",
+    "colors": [
+      "Green",
+      "Gold"
+    ],
+    "occasions": [
+      "Eid",
+      "Wedding",
+      "Party"
+    ],
+    "price": 9800,
+    "originalPrice": 10500,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean only. Store rolled or loosely folded, away from damp, and steam to remove creases.",
+    "description": "Sage-green tissue with a soft metallic sheen, gold buti and a zari border. Catches every bit of light.",
+    "images": [
+      {
+        "url": "/products/sage-tissue-silk.webp",
+        "alt": "Sage green tissue silk saree with gold buti, standing by a sunlit window",
+        "credit": null
+      }
+    ],
+    "popularity": 84,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "sobuj-sona-tissue",
+    "name": "Sobuj Sona Tissue",
+    "nameBn": "সবুজ সোনা টিস্যু",
+    "type": "Tissue / Organza",
+    "fabric": "Tissue",
+    "weave": "Gold-shot weave",
+    "origin": "Bangladesh",
+    "colors": [
+      "Green",
+      "Gold"
     ],
     "occasions": [
       "Eid",
       "Party"
     ],
-    "price": 10500,
-    "originalPrice": 11200,
+    "price": 8400,
+    "originalPrice": 8400,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean only. Store rolled or loosely folded, away from damp, and steam to remove creases.",
+    "description": "Sea-green tissue shot through with gold, so it shifts colour as you move.",
+    "images": [
+      {
+        "url": "/products/sobuj-sona-tissue.webp",
+        "alt": "Close-up of a green and gold tissue saree with a woven border",
+        "credit": null
+      }
+    ],
+    "popularity": 60,
+    "isNewArrival": true,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "gulabi-rupali-katan",
+    "name": "Gulabi Rupali Katan",
+    "nameBn": "গোলাপি রুপালি কাতান",
+    "type": "Katan / Benarasi",
+    "fabric": "Silk",
+    "weave": "Silver zari brocade border",
+    "origin": "Mirpur Benarasi Palli, Dhaka",
+    "colors": [
+      "Pink",
+      "Gold"
+    ],
+    "occasions": [
+      "Wedding",
+      "Holud"
+    ],
+    "price": 24500,
+    "originalPrice": 26000,
     "withBlousePiece": true,
     "handwoven": true,
     "length": {
       "sareeMetres": 5.5,
       "blouseMetres": 0.8
     },
-    "care": "Dry clean for the first few washes. Store folded in a soft cotton cloth and refold every few months so the motifs do not crease. Keep perfume off the fabric.",
-    "description": "A warm peach cotton Jamdani with red and cream flowers. Light, breathable and easy for a summer Eid.",
+    "care": "Dry clean only. Wrap in muslin, keep the zari away from damp, and air the saree after each wear before folding.",
+    "description": "Rose-mauve katan silk with a silvery zari sheen and a deep brocade border. A reception saree.",
     "images": [
       {
-        "url": "/products/jamdani-peach-01.webp",
-        "alt": "Folded peach Jamdani with red and cream floral buti, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj.jpg"
-        }
-      },
+        "url": "/products/gulabi-rupali-katan.webp",
+        "alt": "Rose mauve katan silk saree with silver zari brocade border",
+        "credit": null
+      }
+    ],
+    "popularity": 89,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "akashi-tissue-organza",
+    "name": "Akashi Tissue Organza",
+    "nameBn": "আকাশি টিস্যু",
+    "type": "Tissue / Organza",
+    "fabric": "Organza",
+    "weave": "Gold lace border",
+    "origin": "Bangladesh",
+    "colors": [
+      "Blue",
+      "Gold"
+    ],
+    "occasions": [
+      "Wedding",
+      "Party"
+    ],
+    "price": 11500,
+    "originalPrice": 12500,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean only. Store rolled or loosely folded, away from damp, and steam to remove creases.",
+    "description": "Ice-blue tissue organza with a gold lace border. Airy and luminous for a day wedding.",
+    "images": [
       {
-        "url": "/products/jamdani-peach-02.webp",
-        "alt": "Peach Jamdani sarees folded on a shop table, Narayanganj",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj2.jpg"
-        }
+        "url": "/products/akashi-tissue-organza.webp",
+        "alt": "Ice blue tissue organza saree with a gold lace border",
+        "credit": null
       }
     ],
     "popularity": 38,
@@ -496,41 +662,36 @@ module.exports = [
     "active": true
   },
   {
-    "slug": "rongdhonu-stripe-jamdani",
-    "name": "Rongdhonu Stripe Jamdani",
-    "nameBn": "রংধনু জামদানি",
-    "type": "Jamdani",
-    "fabric": "Cotton",
-    "weave": "Diagonal multicolour stripes",
-    "origin": "Narayanganj, Bangladesh",
+    "slug": "nil-jhalor-tissue",
+    "name": "Nil Jhalor Tissue",
+    "nameBn": "নীল ঝালর টিস্যু",
+    "type": "Tissue / Organza",
+    "fabric": "Tissue",
+    "weave": "Embellished scalloped border",
+    "origin": "Bangladesh",
     "colors": [
-      "Multicolour",
-      "Purple"
+      "Blue",
+      "Grey"
     ],
     "occasions": [
-      "Pohela Boishakh",
-      "Party"
+      "Party",
+      "Wedding"
     ],
-    "price": 14000,
-    "originalPrice": 14000,
+    "price": 13800,
+    "originalPrice": 13800,
     "withBlousePiece": true,
-    "handwoven": true,
+    "handwoven": false,
     "length": {
       "sareeMetres": 5.5,
       "blouseMetres": 0.8
     },
-    "care": "Dry clean for the first few washes. Store folded in a soft cotton cloth and refold every few months so the motifs do not crease. Keep perfume off the fabric.",
-    "description": "Rainbow stripes run on the diagonal across a sheer ground, with a motif border at both ends. A modern Jamdani, still woven by hand.",
+    "care": "Dry clean only. Store rolled or loosely folded, away from damp, and steam to remove creases.",
+    "description": "Teal-blue tissue with scattered stone work and a hand-finished scalloped border.",
     "images": [
       {
-        "url": "/products/jamdani-multistripe-01.webp",
-        "alt": "Multicolour diagonal-stripe Jamdani held open at a shop in BSCIC Jamdani Palli",
-        "credit": {
-          "author": "Wasiul Bahar",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj_5.jpg"
-        }
+        "url": "/products/nil-jhalor-tissue.webp",
+        "alt": "Teal blue tissue saree with an embellished scalloped border",
+        "credit": null
       }
     ],
     "popularity": 57,
@@ -539,20 +700,401 @@ module.exports = [
     "active": true
   },
   {
-    "slug": "sonali-katan-benarasi",
-    "name": "Sonali Katan Benarasi",
-    "nameBn": "সোনালি কাতান",
-    "type": "Katan / Benarasi",
-    "fabric": "Silk",
-    "weave": "Brocade with a broad zari border",
-    "origin": "Mirpur Benarasi Palli, Dhaka",
+    "slug": "khoyeri-lace-soft-silk",
+    "name": "Khoyeri Lace Soft Silk",
+    "nameBn": "খয়েরি লেস সিল্ক",
+    "type": "Half-silk / Soft silk",
+    "fabric": "Half-silk",
+    "weave": "Embroidered buti, gold lace border",
+    "origin": "Bangladesh",
     "colors": [
-      "Gold",
-      "Green"
+      "Maroon",
+      "Gold"
+    ],
+    "occasions": [
+      "Wedding",
+      "Eid"
+    ],
+    "price": 8900,
+    "originalPrice": 9600,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean, or hand wash gently in cold water. Dry in shade and iron on low.",
+    "description": "Maroon soft silk with small embroidered flowers and a wide gold lace border. Wedding-guest ready.",
+    "images": [
+      {
+        "url": "/products/khoyeri-lace-soft-silk.webp",
+        "alt": "Maroon soft silk saree with embroidered buti and a gold lace border",
+        "credit": null
+      }
+    ],
+    "popularity": 36,
+    "isNewArrival": false,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "lal-kaj-tissue",
+    "name": "Lal Kaj Tissue",
+    "nameBn": "লাল কাজ টিস্যু",
+    "type": "Tissue / Organza",
+    "fabric": "Tissue",
+    "weave": "Embroidered border and buti",
+    "origin": "Bangladesh",
+    "colors": [
+      "Red",
+      "Gold"
     ],
     "occasions": [
       "Wedding",
       "Holud"
+    ],
+    "price": 12800,
+    "originalPrice": 13500,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean only. Store rolled or loosely folded, away from damp, and steam to remove creases.",
+    "description": "Red tissue with an embroidered border and gold buti, worn with a matching embroidered blouse piece.",
+    "images": [
+      {
+        "url": "/products/lal-kaj-tissue.webp",
+        "alt": "Red tissue saree with an embroidered border and gold buti",
+        "credit": null
+      }
+    ],
+    "popularity": 85,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "khoyeri-jaal-benarasi",
+    "name": "Khoyeri Jaal Benarasi",
+    "nameBn": "খয়েরি জাল বেনারসি",
+    "type": "Katan / Benarasi",
+    "fabric": "Silk",
+    "weave": "All-over zari jaal, brocade pallu",
+    "origin": "Mirpur Benarasi Palli, Dhaka",
+    "colors": [
+      "Maroon",
+      "Gold"
+    ],
+    "occasions": [
+      "Wedding"
+    ],
+    "price": 34000,
+    "originalPrice": 36000,
+    "withBlousePiece": true,
+    "handwoven": true,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean only. Wrap in muslin, keep the zari away from damp, and air the saree after each wear before folding.",
+    "description": "Deep maroon Benarasi covered in a gold floral jaal, with a heavy brocade border and pallu. For the bride.",
+    "images": [
+      {
+        "url": "/products/khoyeri-jaal-benarasi.webp",
+        "alt": "Maroon Benarasi saree with an all-over gold floral jaal and a brocade border",
+        "credit": null
+      }
+    ],
+    "popularity": 84,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "beguni-buti-katan",
+    "name": "Beguni Buti Katan",
+    "nameBn": "বেগুনি বুটি কাতান",
+    "type": "Katan / Benarasi",
+    "fabric": "Silk",
+    "weave": "Zari buti, brocade border",
+    "origin": "Mirpur Benarasi Palli, Dhaka",
+    "colors": [
+      "Maroon",
+      "Gold"
+    ],
+    "occasions": [
+      "Wedding",
+      "Eid"
+    ],
+    "price": 22500,
+    "originalPrice": 22500,
+    "withBlousePiece": true,
+    "handwoven": true,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean only. Wrap in muslin, keep the zari away from damp, and air the saree after each wear before folding.",
+    "description": "Wine katan with small zari buti and a wide brocade border. Rich without being heavy.",
+    "images": [
+      {
+        "url": "/products/beguni-buti-katan.webp",
+        "alt": "Wine coloured katan saree with zari buti and a wide brocade border",
+        "credit": null
+      }
+    ],
+    "popularity": 60,
+    "isNewArrival": true,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "koffee-sheer-chiffon",
+    "name": "Coffee Sheer Chiffon",
+    "nameBn": "কফি শিফন",
+    "type": "Georgette / Chiffon",
+    "fabric": "Chiffon",
+    "weave": "Embroidered border",
+    "origin": "Bangladesh",
+    "colors": [
+      "Brown",
+      "Gold"
+    ],
+    "occasions": [
+      "Party",
+      "Eid"
+    ],
+    "price": 4800,
+    "originalPrice": 5200,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean or hand wash in cold water. Hang to dry and steam rather than iron.",
+    "description": "Sheer coffee-brown chiffon with a fine embroidered border and scattered motifs. Floats rather than falls.",
+    "images": [
+      {
+        "url": "/products/koffee-sheer-chiffon.webp",
+        "alt": "Sheer coffee brown chiffon saree with an embroidered border",
+        "credit": null
+      }
+    ],
+    "popularity": 89,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "shiuli-olive-georgette",
+    "name": "Shiuli Olive Georgette",
+    "nameBn": "শিউলি জর্জেট",
+    "type": "Georgette / Chiffon",
+    "fabric": "Georgette",
+    "weave": "Sequin buti, tasselled pallu",
+    "origin": "Bangladesh",
+    "colors": [
+      "Green",
+      "Gold"
+    ],
+    "occasions": [
+      "Party",
+      "Holud"
+    ],
+    "price": 4500,
+    "originalPrice": 4500,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean or hand wash in cold water. Hang to dry and steam rather than iron.",
+    "description": "Olive georgette sprinkled with sequin flowers, with a scalloped edge and tassels on the pallu.",
+    "images": [
+      {
+        "url": "/products/shiuli-olive-georgette.webp",
+        "alt": "Olive green georgette saree with sequin flowers and tassels",
+        "credit": null
+      }
+    ],
+    "popularity": 58,
+    "isNewArrival": true,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "banani-crush-georgette",
+    "name": "Banani Crush Georgette",
+    "nameBn": "বনানী ক্রাশ জর্জেট",
+    "type": "Georgette / Chiffon",
+    "fabric": "Georgette",
+    "weave": "Crushed texture, sequin dots",
+    "origin": "Bangladesh",
+    "colors": [
+      "Green",
+      "Gold"
+    ],
+    "occasions": [
+      "Party",
+      "Everyday"
+    ],
+    "price": 3900,
+    "originalPrice": 4300,
+    "withBlousePiece": false,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0
+    },
+    "care": "Dry clean or hand wash in cold water. Hang to dry and steam rather than iron.",
+    "description": "Crushed bottle-green georgette with gold sequin dots. Packs small and needs no ironing.",
+    "images": [
+      {
+        "url": "/products/banani-crush-georgette.webp",
+        "alt": "Bottle green crushed georgette saree with gold sequin dots, worn with a black blouse",
+        "credit": null
+      }
+    ],
+    "popularity": 37,
+    "isNewArrival": false,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "tota-sobuj-rajshahi-silk",
+    "name": "Tota Sobuj Rajshahi Silk",
+    "nameBn": "টোটা সবুজ রাজশাহী সিল্ক",
+    "type": "Rajshahi silk",
+    "fabric": "Silk",
+    "weave": "Wide gold zari border, tasselled",
+    "origin": "Rajshahi, Bangladesh",
+    "colors": [
+      "Green",
+      "Gold"
+    ],
+    "occasions": [
+      "Eid",
+      "Holud",
+      "Puja"
+    ],
+    "price": 10800,
+    "originalPrice": 11500,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean, or hand wash gently in cold water with a mild shampoo. Dry in shade and iron on low on the reverse.",
+    "description": "Glossy green silk with a broad gold zari border and a tasselled pallu. A classic for Eid.",
+    "images": [
+      {
+        "url": "/products/tota-sobuj-rajshahi-silk.webp",
+        "alt": "Glossy green silk saree with a broad gold zari border and tassels",
+        "credit": null
+      }
+    ],
+    "popularity": 86,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "khoyeri-sona-paar-tant",
+    "name": "Khoyeri Sona Paar Tant",
+    "nameBn": "খয়েরি সোনা পাড় তাঁত",
+    "type": "Tangail tant",
+    "fabric": "Cotton",
+    "weave": "Handloom, zari paar",
+    "origin": "Tangail, Bangladesh",
+    "colors": [
+      "Maroon",
+      "Gold"
+    ],
+    "occasions": [
+      "Office",
+      "Puja",
+      "Everyday"
+    ],
+    "price": 3600,
+    "originalPrice": 3600,
+    "withBlousePiece": true,
+    "handwoven": true,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Hand wash separately in cold water for the first few washes, starch lightly and dry in shade.",
+    "description": "Maroon handloom cotton with a slim gold paar and striped pallu. Crisp for the office, festive for Puja.",
+    "images": [
+      {
+        "url": "/products/khoyeri-sona-paar-tant.webp",
+        "alt": "Maroon cotton saree with a slim gold border, worn outdoors",
+        "credit": null
+      }
+    ],
+    "popularity": 55,
+    "isNewArrival": true,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "dorakata-paar-tant",
+    "name": "Dorakata Paar Tant",
+    "nameBn": "ডোরাকাটা পাড় তাঁত",
+    "type": "Tangail tant",
+    "fabric": "Cotton",
+    "weave": "Handloom, striped zari paar",
+    "origin": "Tangail, Bangladesh",
+    "colors": [
+      "Maroon",
+      "Gold"
+    ],
+    "occasions": [
+      "Puja",
+      "Office"
+    ],
+    "price": 3200,
+    "originalPrice": 3500,
+    "withBlousePiece": true,
+    "handwoven": true,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Hand wash separately in cold water for the first few washes, starch lightly and dry in shade.",
+    "description": "Deep maroon tant with a striped gold paar that matches the blouse piece. Simple and timeless.",
+    "images": [
+      {
+        "url": "/products/dorakata-paar-tant.webp",
+        "alt": "Close-up of a maroon cotton saree with a striped gold border",
+        "credit": null
+      }
+    ],
+    "popularity": 34,
+    "isNewArrival": false,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "rani-lal-katan",
+    "name": "Rani Lal Katan",
+    "nameBn": "রানি লাল কাতান",
+    "type": "Katan / Benarasi",
+    "fabric": "Silk",
+    "weave": "Zari buti, brocade border and pallu",
+    "origin": "Mirpur Benarasi Palli, Dhaka",
+    "colors": [
+      "Maroon",
+      "Gold"
+    ],
+    "occasions": [
+      "Wedding",
+      "Eid"
     ],
     "price": 28000,
     "originalPrice": 30000,
@@ -563,143 +1105,12 @@ module.exports = [
       "blouseMetres": 0.8
     },
     "care": "Dry clean only. Wrap in muslin, keep the zari away from damp, and air the saree after each wear before folding.",
-    "description": "Gold zari over a green-gold silk ground, with a deep brocade border. Glows under evening light without looking heavy.",
+    "description": "Maroon katan with golden buti and a brocade border that runs into a tasselled pallu.",
     "images": [
       {
-        "url": "/products/benarasi-gold-01.webp",
-        "alt": "Gold-green Banarasi brocade saree on display at Dilli Haat, Delhi (India)",
-        "credit": {
-          "author": "Ekabhishek",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Saree_on_display_at_Dilli_Haat.JPG"
-        }
-      }
-    ],
-    "popularity": 86,
-    "isNewArrival": false,
-    "bestSeller": true,
-    "active": true
-  },
-  {
-    "slug": "sonar-anchal-benarasi",
-    "name": "Sonar Anchal Benarasi",
-    "nameBn": "সোনার আঁচল বেনারসি",
-    "type": "Katan / Benarasi",
-    "fabric": "Silk",
-    "weave": "Brocade body with zari border",
-    "origin": "Mirpur Benarasi Palli, Dhaka",
-    "colors": [
-      "Gold"
-    ],
-    "occasions": [
-      "Wedding"
-    ],
-    "price": 32000,
-    "originalPrice": 32000,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean only. Wrap in muslin, keep the zari away from damp, and air the saree after each wear before folding.",
-    "description": "An all-gold Benarasi with small woven motifs across the body and a fine zari border. For the bride, or the bride's mother.",
-    "images": [
-      {
-        "url": "/products/benarasi-gold-drape-01.webp",
-        "alt": "Gold silk sari, probably Benares, late 19th or early 20th century, Honolulu Museum of Art",
-        "credit": {
-          "author": "Hiart",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Sari_from_India_(probably_Benares),_late_19th_or_early_20th_century,_silk_with_metallic_thread,_HAA.jpg"
-        }
-      }
-    ],
-    "popularity": 35,
-    "isNewArrival": false,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "chandrima-ivory-katan",
-    "name": "Chandrima Ivory Katan",
-    "nameBn": "চন্দ্রিমা কাতান",
-    "type": "Katan / Benarasi",
-    "fabric": "Silk",
-    "weave": "Satin-weave brocade with gold thread",
-    "origin": "Mirpur Benarasi Palli, Dhaka",
-    "colors": [
-      "Ivory",
-      "Gold"
-    ],
-    "occasions": [
-      "Wedding",
-      "Puja"
-    ],
-    "price": 26500,
-    "originalPrice": 27500,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean only. Wrap in muslin, keep the zari away from damp, and air the saree after each wear before folding.",
-    "description": "Ivory silk with gold thread woven through: soft, luminous and quietly grand. A favourite for the reception and for Puja mornings.",
-    "images": [
-      {
-        "url": "/products/benarasi-ivory-drape-01.webp",
-        "alt": "Ivory Varanasi silk sari with gold thread (1960s), draped on a form, Textile Museum of Canada",
-        "credit": {
-          "author": "Daderot",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Sari,_Varanasi,_Uttar_Pradesh,_India,_1960s,_silk,_gold_thread,_satin_-_Textile_Museum_of_Canada_-_DSC00943.JPG"
-        }
-      }
-    ],
-    "popularity": 54,
-    "isNewArrival": true,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "beguni-konia-benarasi",
-    "name": "Beguni Konia Benarasi",
-    "nameBn": "বেগুনি কোনিয়া বেনারসি",
-    "type": "Katan / Benarasi",
-    "fabric": "Silk",
-    "weave": "Konia corner, bel and jaal motifs",
-    "origin": "Mirpur Benarasi Palli, Dhaka",
-    "colors": [
-      "Purple",
-      "Gold"
-    ],
-    "occasions": [
-      "Wedding"
-    ],
-    "price": 38000,
-    "originalPrice": 40000,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean only. Wrap in muslin, keep the zari away from damp, and air the saree after each wear before folding.",
-    "description": "Aubergine silk with a paisley konia in each corner, vines along the border and a jaal across the body. Brocade at its most generous.",
-    "images": [
-      {
-        "url": "/products/benarasi-purple-01.webp",
-        "alt": "Corner (konia) of a purple Banarasi brocade sari with gold zari",
-        "credit": {
-          "author": "Anilbhardwajnoida",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Konia,_brocade_sari.jpg"
-        }
+        "url": "/products/rani-lal-katan.webp",
+        "alt": "Maroon katan saree with gold buti and a brocade border, worn in a courtyard",
+        "credit": null
       }
     ],
     "popularity": 90,
@@ -708,659 +1119,37 @@ module.exports = [
     "active": true
   },
   {
-    "slug": "jaal-purple-benarasi",
-    "name": "Shahi Jaal Benarasi",
-    "nameBn": "শাহী জাল বেনারসি",
-    "type": "Katan / Benarasi",
-    "fabric": "Silk",
-    "weave": "All-over medallion jaal",
-    "origin": "Mirpur Benarasi Palli, Dhaka",
-    "colors": [
-      "Purple",
-      "Gold"
-    ],
-    "occasions": [
-      "Wedding"
-    ],
-    "price": 42000,
-    "originalPrice": 42000,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean only. Wrap in muslin, keep the zari away from damp, and air the saree after each wear before folding.",
-    "description": "Gold medallions set in a lattice over violet silk. One of the most labour-heavy weaves in the collection, made for a wedding day.",
-    "images": [
-      {
-        "url": "/products/benarasi-purple-02.webp",
-        "alt": "Purple Varanasi silk sari with a gold medallion jaal, Textile Museum of Canada",
-        "credit": {
-          "author": "Daderot",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Sari,_Varanasi,_Uttar_Pradesh,_India,_view_1,_20th_century,_silk,_gold_thread_-_Textile_Museum_of_Canada_-_DSC00954.JPG"
-        }
-      },
-      {
-        "url": "/products/benarasi-purple-03.webp",
-        "alt": "Detail of a gold medallion on a purple Varanasi silk sari, Textile Museum of Canada",
-        "credit": {
-          "author": "Daderot",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Sari,_Varanasi,_Uttar_Pradesh,_India,_view_2,_20th_century,_silk,_gold_thread_-_Textile_Museum_of_Canada_-_DSC00956.JPG"
-        }
-      }
-    ],
-    "popularity": 39,
-    "isNewArrival": false,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "maroon-shikargah-katan",
-    "name": "Maroon Chakra Katan",
-    "nameBn": "মেরুন চক্র কাতান",
-    "type": "Katan / Benarasi",
-    "fabric": "Silk",
-    "weave": "Lattice with a woven roundel",
-    "origin": "Mirpur Benarasi Palli, Dhaka",
+    "slug": "khoyeri-buti-jamdani",
+    "name": "Khoyeri Buti Jamdani",
+    "nameBn": "খয়েরি বুটি জামদানি",
+    "type": "Jamdani",
+    "fabric": "Half-silk",
+    "weave": "Handwoven buti and zari paar",
+    "origin": "Narayanganj, Bangladesh",
     "colors": [
       "Maroon",
       "Gold"
     ],
     "occasions": [
-      "Wedding"
-    ],
-    "price": 35000,
-    "originalPrice": 36500,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean only. Wrap in muslin, keep the zari away from damp, and air the saree after each wear before folding.",
-    "description": "A maroon katan with a gold lattice and a large woven roundel. Bold, graphic and very Bengali.",
-    "images": [
-      {
-        "url": "/products/benarasi-maroon-01.webp",
-        "alt": "Maroon Benarasi brocade with a gold lattice and roundel, Indian Museum, Kolkata",
-        "credit": {
-          "author": "Daderot",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Shawl,_Varanasi,_Uttar_Pradesh,_India,_view_2,_late_19th_to_early_20th_century,_silk,_gold_thread_-_Textile_Museum_of_Canada_-_DSC00969.JPG"
-        }
-      }
-    ],
-    "popularity": 38,
-    "isNewArrival": false,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "lal-jaal-benarasi",
-    "name": "Lal Jaal Bridal Benarasi",
-    "nameBn": "লাল জাল বেনারসি",
-    "type": "Katan / Benarasi",
-    "fabric": "Silk",
-    "weave": "Dense zari jaal, supplementary weft",
-    "origin": "Mirpur Benarasi Palli, Dhaka",
-    "colors": [
-      "Red",
-      "Gold"
-    ],
-    "occasions": [
-      "Wedding"
-    ],
-    "price": 45000,
-    "originalPrice": 45000,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean only. Wrap in muslin, keep the zari away from damp, and air the saree after each wear before folding.",
-    "description": "The bridal red Benarasi, covered in a fine gold and silver jaal with a plain red border. The top of the collection.",
-    "images": [
-      {
-        "url": "/products/benarasi-red-01.webp",
-        "alt": "Red Varanasi silk sari with gold and silver thread (18th century), Honolulu Museum of Art",
-        "credit": {
-          "author": "Hiart",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Sari_from_India,_Varanasi,_18th_century,_Honolulu_Museum_of_Art_10911.1.JPG"
-        }
-      }
-    ],
-    "popularity": 87,
-    "isNewArrival": false,
-    "bestSeller": true,
-    "active": true
-  },
-  {
-    "slug": "khoyeri-diamond-katan",
-    "name": "Khoyeri Diamond Katan",
-    "nameBn": "খয়েরি কাতান",
-    "type": "Katan / Benarasi",
-    "fabric": "Silk",
-    "weave": "Diamond jaal in gold",
-    "origin": "Mirpur Benarasi Palli, Dhaka",
-    "colors": [
-      "Brown",
-      "Gold"
-    ],
-    "occasions": [
-      "Wedding",
-      "Eid"
-    ],
-    "price": 29500,
-    "originalPrice": 29500,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean only. Wrap in muslin, keep the zari away from damp, and air the saree after each wear before folding.",
-    "description": "Chocolate silk with a small gold diamond lattice and a bordered anchal. Understated for a Benarasi, which is the point.",
-    "images": [
-      {
-        "url": "/products/benarasi-brown-01.webp",
-        "alt": "Brown Varanasi silk with a gold diamond lattice, Textile Museum of Canada",
-        "credit": {
-          "author": "Daderot",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Shawl,_Varanasi,_Uttar_Pradesh,_India,_view_1,_late_19th_to_early_20th_century,_silk,_gold_thread_-_Textile_Museum_of_Canada_-_DSC00965.JPG"
-        }
-      }
-    ],
-    "popularity": 56,
-    "isNewArrival": true,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "begun-bel-benarasi",
-    "name": "Begun Bel Benarasi",
-    "nameBn": "বেগুন বেল বেনারসি",
-    "type": "Katan / Benarasi",
-    "fabric": "Silk",
-    "weave": "Diagonal floral zari bands",
-    "origin": "Mirpur Benarasi Palli, Dhaka",
-    "colors": [
-      "Purple",
-      "Gold"
-    ],
-    "occasions": [
-      "Wedding",
-      "Eid"
-    ],
-    "price": 33000,
-    "originalPrice": 34500,
-    "withBlousePiece": true,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean only. Wrap in muslin, keep the zari away from damp, and air the saree after each wear before folding.",
-    "description": "Floral vines in gold zari run on the diagonal across a muted violet ground. Elegant for an Eid dinner or a wedding reception.",
-    "images": [
-      {
-        "url": "/products/benarasi-violet-01.webp",
-        "alt": "Benarasi saree with diagonal floral zari bands, early 19th century, Indian Museum, Kolkata",
-        "credit": {
-          "author": "Kritzolina",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Textile_exhibits_at_the_Indian_Museum,_Kolkata_02.jpg"
-        }
-      }
-    ],
-    "popularity": 35,
-    "isNewArrival": false,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "magenta-rajshahi-silk",
-    "name": "Magenta Rajshahi Silk",
-    "nameBn": "ম্যাজেন্টা রাজশাহী সিল্ক",
-    "type": "Rajshahi silk",
-    "fabric": "Silk",
-    "weave": "Woven gold border and anchal",
-    "origin": "Rajshahi, Bangladesh",
-    "colors": [
-      "Magenta",
-      "Gold"
-    ],
-    "occasions": [
       "Eid",
       "Puja",
-      "Party"
+      "Wedding"
     ],
-    "price": 9500,
-    "originalPrice": 10200,
-    "withBlousePiece": true,
-    "handwoven": false,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean, or hand wash gently in cold water with a mild shampoo. Dry in shade and iron on low on the reverse.",
-    "description": "Bright magenta Rajshahi silk with a gold temple border and a striped anchal. Soft to the touch, with a crisp drape.",
-    "images": [
-      {
-        "url": "/products/rajshahi-silk-magenta-01.webp",
-        "alt": "Magenta Rajshahi silk saree with a gold woven border, draped on a form",
-        "credit": {
-          "author": "Masum-al-hasan",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Rajshahi_silk.jpg"
-        }
-      }
-    ],
-    "popularity": 84,
-    "isNewArrival": false,
-    "bestSeller": true,
-    "active": true
-  },
-  {
-    "slug": "lal-sobuj-rajshahi-silk",
-    "name": "Lal Sobuj Rajshahi Silk",
-    "nameBn": "লাল সবুজ রাজশাহী সিল্ক",
-    "type": "Rajshahi silk",
-    "fabric": "Silk",
-    "weave": "Contrast green anchal, woven border",
-    "origin": "Rajshahi, Bangladesh",
-    "colors": [
-      "Red",
-      "Green"
-    ],
-    "occasions": [
-      "Eid",
-      "Puja",
-      "Party"
-    ],
-    "price": 9200,
-    "originalPrice": 9200,
-    "withBlousePiece": true,
-    "handwoven": false,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean, or hand wash gently in cold water with a mild shampoo. Dry in shade and iron on low on the reverse.",
-    "description": "Red silk with a green and gold anchal: the colours of the flag and of every festival. Light enough for a full day out.",
-    "images": [
-      {
-        "url": "/products/rajshahi-silk-red-green-01.webp",
-        "alt": "Red Rajshahi silk saree with a green-and-gold anchal, draped on a form",
-        "credit": {
-          "author": "Masum-al-hasan",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Rajshahi_silk_(1).jpg"
-        }
-      }
-    ],
-    "popularity": 60,
-    "isNewArrival": true,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "golapi-plain-rajshahi-silk",
-    "name": "Golapi Plain Rajshahi Silk",
-    "nameBn": "গোলাপি রাজশাহী সিল্ক",
-    "type": "Rajshahi silk",
-    "fabric": "Silk",
-    "weave": "Plain weave, piece-dyed",
-    "origin": "Rajshahi, Bangladesh",
-    "colors": [
-      "Pink"
-    ],
-    "occasions": [
-      "Everyday",
-      "Office"
-    ],
-    "price": 7800,
-    "originalPrice": 7800,
-    "withBlousePiece": false,
-    "handwoven": false,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0
-    },
-    "care": "Dry clean, or hand wash gently in cold water with a mild shampoo. Dry in shade and iron on low on the reverse.",
-    "description": "A plain Rajshahi silk dyed a clear rose pink. Pair it with a printed blouse for the office or a dinner.",
-    "images": [
-      {
-        "url": "/products/rajshahi-silk-pink-01.webp",
-        "alt": "Dyed pink Rajshahi silk fabric drying at Sopura Silk Mills, Rajshahi",
-        "credit": {
-          "author": "Moheen Reeyad",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Rajshahi_silk_fabric,_Sopura_Silk_Mills_Ltd_(01).jpg"
-        }
-      }
-    ],
-    "popularity": 39,
-    "isNewArrival": false,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "firoza-plain-rajshahi-silk",
-    "name": "Firoza Plain Rajshahi Silk",
-    "nameBn": "ফিরোজা রাজশাহী সিল্ক",
-    "type": "Rajshahi silk",
-    "fabric": "Silk",
-    "weave": "Plain weave, piece-dyed",
-    "origin": "Rajshahi, Bangladesh",
-    "colors": [
-      "Teal"
-    ],
-    "occasions": [
-      "Everyday",
-      "Office"
-    ],
-    "price": 7600,
-    "originalPrice": 8000,
-    "withBlousePiece": false,
-    "handwoven": false,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0
-    },
-    "care": "Dry clean, or hand wash gently in cold water with a mild shampoo. Dry in shade and iron on low on the reverse.",
-    "description": "Turquoise Rajshahi silk, plain and fluid. One of the easiest silks to style and the lightest to carry.",
-    "images": [
-      {
-        "url": "/products/rajshahi-silk-teal-01.webp",
-        "alt": "Dyed teal Rajshahi silk fabric stretched to dry at Sopura Silk Mills, Rajshahi",
-        "credit": {
-          "author": "Moheen Reeyad",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Rajshahi_silk_fabric,_Sopura_Silk_Mills_Ltd_(02).jpg"
-        }
-      }
-    ],
-    "popularity": 38,
-    "isNewArrival": false,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "phul-chhap-rajshahi-silk",
-    "name": "Phul Chhap Rajshahi Silk",
-    "nameBn": "ফুল ছাপ রাজশাহী সিল্ক",
-    "type": "Rajshahi silk",
-    "fabric": "Silk",
-    "weave": "Hand-printed flowers",
-    "origin": "Rajshahi, Bangladesh",
-    "colors": [
-      "Ivory",
-      "Gold"
-    ],
-    "occasions": [
-      "Office",
-      "Eid"
-    ],
-    "price": 8400,
-    "originalPrice": 8400,
-    "withBlousePiece": true,
-    "handwoven": false,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean, or hand wash gently in cold water with a mild shampoo. Dry in shade and iron on low on the reverse.",
-    "description": "Ivory silk printed by hand with golden flowers and a matching border, printed on long tables in Rajshahi.",
-    "images": [
-      {
-        "url": "/products/rajshahi-silk-printed-01.webp",
-        "alt": "Ivory Rajshahi silk with floral motifs on the printing table, Sopura Silk Mills",
-        "credit": {
-          "author": "Aashaa",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Rajshahi_silk_sopura_silk_mills_(8).jpg"
-        }
-      },
-      {
-        "url": "/products/rajshahi-silk-printed-02.webp",
-        "alt": "Floral-printed Rajshahi silk on the printing table, Sopura Silk Mills",
-        "credit": {
-          "author": "Aashaa",
-          "license": "CC0",
-          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Rajshahi_silk_sopura_silk_mills_(10).jpg"
-        }
-      }
-    ],
-    "popularity": 57,
-    "isNewArrival": true,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "alpona-batik-rajshahi-silk",
-    "name": "Alpona Batik Rajshahi Silk",
-    "nameBn": "আলপনা বাটিক সিল্ক",
-    "type": "Rajshahi silk",
-    "fabric": "Silk",
-    "weave": "Hand-drawn wax (batik) design",
-    "origin": "Rajshahi, Bangladesh",
-    "colors": [
-      "Ivory",
-      "Gold"
-    ],
-    "occasions": [
-      "Party",
-      "Eid"
-    ],
-    "price": 8900,
-    "originalPrice": 9500,
-    "withBlousePiece": true,
-    "handwoven": false,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0.8
-    },
-    "care": "Dry clean, or hand wash gently in cold water with a mild shampoo. Dry in shade and iron on low on the reverse.",
-    "description": "A large alpona-like motif drawn in wax by hand before dyeing, so no two are quite the same.",
-    "images": [
-      {
-        "url": "/products/rajshahi-silk-wax-01.webp",
-        "alt": "Hand-drawn wax design on Rajshahi silk, Sopura Silk Mills, Rajshahi",
-        "credit": {
-          "author": "Moheen Reeyad",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Waxing_on_Rajshahi_silk,_Sopura_Silk_Mills_Ltd_(01).jpg"
-        }
-      }
-    ],
-    "popularity": 36,
-    "isNewArrival": false,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "boishakhi-lal-paar-tangail",
-    "name": "Boishakhi Lal Paar Tangail",
-    "nameBn": "বৈশাখী লাল পাড় টাঙ্গাইল",
-    "type": "Tangail tant",
-    "fabric": "Cotton",
-    "weave": "Handloom, floral paar",
-    "origin": "Tangail, Bangladesh",
-    "colors": [
-      "White",
-      "Red"
-    ],
-    "occasions": [
-      "Pohela Boishakh",
-      "Puja"
-    ],
-    "price": 2800,
-    "originalPrice": 3000,
-    "withBlousePiece": false,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0
-    },
-    "care": "Hand wash separately in cold water for the first few washes, starch lightly and dry in shade.",
-    "description": "White tant with a red floral paar: the saree of the first morning of Boishakh. Light, crisp and easy to drape.",
-    "images": [
-      {
-        "url": "/products/tangail-white-red-01.webp",
-        "alt": "Red floral border of a Tangail sari from the 1970s (collection of Rabeya Khathun)",
-        "credit": {
-          "author": "Subornolota",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Border_of_Tangail_sari,from_the_1970s.jpg"
-        }
-      }
-    ],
-    "popularity": 85,
-    "isNewArrival": false,
-    "bestSeller": true,
-    "active": true
-  },
-  {
-    "slug": "golapi-tangail-tant",
-    "name": "Golapi Tangail Tant",
-    "nameBn": "গোলাপি তাঁত",
-    "type": "Tangail tant",
-    "fabric": "Cotton",
-    "weave": "Handloom, small buti",
-    "origin": "Tangail, Bangladesh",
-    "colors": [
-      "Pink",
-      "Yellow"
-    ],
-    "occasions": [
-      "Everyday",
-      "Pohela Boishakh"
-    ],
-    "price": 2400,
-    "originalPrice": 2400,
-    "withBlousePiece": false,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0
-    },
-    "care": "Hand wash separately in cold water for the first few washes, starch lightly and dry in shade.",
-    "description": "Pink cotton tant with small woven buti and a yellow border. For the office, for errands, for every day of a hot summer.",
-    "images": [
-      {
-        "url": "/products/tant-pink-01.webp",
-        "alt": "Pink tant saree shown to customers at Phulia, Nadia (West Bengal)",
-        "credit": {
-          "author": "Biswarup Ganguly",
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Paltu_Sarkar_Shows_Tant_Sarees_-_2_Natun_Phulia_-_Nadia_2016-11-12_1857.JPG"
-        }
-      }
-    ],
-    "popularity": 54,
-    "isNewArrival": true,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "lal-buti-tangail-tant",
-    "name": "Lal Buti Tangail Tant",
-    "nameBn": "লাল বুটি তাঁত",
-    "type": "Tangail tant",
-    "fabric": "Cotton",
-    "weave": "Handloom, buti and zari paar",
-    "origin": "Tangail, Bangladesh",
-    "colors": [
-      "Red",
-      "Gold"
-    ],
-    "occasions": [
-      "Puja",
-      "Pohela Boishakh"
-    ],
-    "price": 2650,
-    "originalPrice": 2800,
-    "withBlousePiece": false,
-    "handwoven": true,
-    "length": {
-      "sareeMetres": 5.5,
-      "blouseMetres": 0
-    },
-    "care": "Hand wash separately in cold water for the first few washes, starch lightly and dry in shade.",
-    "description": "Red tant with round gold buti and a zari-striped paar. A festive cotton for Puja evenings.",
-    "images": [
-      {
-        "url": "/products/tant-red-01.webp",
-        "alt": "Red tant saree with gold buti, Natun Phulia, Nadia (West Bengal)",
-        "credit": {
-          "author": "Biswarup Ganguly",
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Customers_Selecting_Tant_Sarees_-_2_Natun_Phulia_-_Nadia_2016-11-12_1914.JPG"
-        }
-      }
-    ],
-    "popularity": 40,
-    "isNewArrival": false,
-    "bestSeller": false,
-    "active": true
-  },
-  {
-    "slug": "shubhra-muslin",
-    "name": "Shubhra Muslin",
-    "nameBn": "শুভ্র মসলিন",
-    "type": "Muslin",
-    "fabric": "Muslin cotton",
-    "weave": "Handwoven, very fine count",
-    "origin": "Dhaka, Bangladesh (muslin revival)",
-    "colors": [
-      "Ivory"
-    ],
-    "occasions": [
-      "Wedding",
-      "Party"
-    ],
-    "price": 38000,
-    "originalPrice": 38000,
+    "price": 14500,
+    "originalPrice": 15500,
     "withBlousePiece": true,
     "handwoven": true,
     "length": {
       "sareeMetres": 5.5,
       "blouseMetres": 0.8
     },
-    "care": "Dry clean only. Fold loosely in tissue and never hang it.",
-    "description": "Fine enough to pass through a ring: the old test for muslin, still used today. A plain ivory saree that weighs almost nothing.",
+    "care": "Dry clean for the first few washes. Store folded in a soft cotton cloth and refold every few months so the motifs do not crease. Keep perfume off the fabric.",
+    "description": "Wine Jamdani with gold buti laid in by hand and a woven zari paar and pallu.",
     "images": [
       {
-        "url": "/products/muslin-ivory-01.webp",
-        "alt": "An ivory muslin saree drawn through a finger ring",
-        "credit": {
-          "author": "Rangan Datta Wiki",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Moslin_1.jpg"
-        }
+        "url": "/products/khoyeri-buti-jamdani.webp",
+        "alt": "Wine coloured Jamdani saree with gold buti and zari border",
+        "credit": null
       }
     ],
     "popularity": 59,
@@ -1369,51 +1158,37 @@ module.exports = [
     "active": true
   },
   {
-    "slug": "neel-buti-muslin",
-    "name": "Neel Buti Muslin",
-    "nameBn": "নীল বুটি মসলিন",
-    "type": "Muslin",
-    "fabric": "Muslin cotton",
-    "weave": "Handwoven, Jamdani-style motifs",
-    "origin": "Dhaka, Bangladesh (muslin revival)",
+    "slug": "jam-check-soft-silk",
+    "name": "Jam Check Soft Silk",
+    "nameBn": "জাম চেক সফট সিল্ক",
+    "type": "Half-silk / Soft silk",
+    "fabric": "Half-silk",
+    "weave": "Woven checks, copper zari border",
+    "origin": "Bangladesh",
     "colors": [
-      "White",
-      "Blue"
+      "Purple",
+      "Gold"
     ],
     "occasions": [
-      "Wedding",
+      "Office",
+      "Eid",
       "Party"
     ],
-    "price": 35000,
-    "originalPrice": 36000,
+    "price": 5900,
+    "originalPrice": 5900,
     "withBlousePiece": true,
-    "handwoven": true,
+    "handwoven": false,
     "length": {
       "sareeMetres": 5.5,
       "blouseMetres": 0.8
     },
-    "care": "Dry clean only. Fold loosely in tissue and never hang it.",
-    "description": "White muslin with blue motifs woven in the Jamdani way, delivered in its own box. An heirloom piece.",
+    "care": "Dry clean, or hand wash gently in cold water. Dry in shade and iron on low.",
+    "description": "Aubergine soft silk in tiny woven checks with a copper zari border. Polished for the office.",
     "images": [
       {
-        "url": "/products/muslin-white-blue-01.webp",
-        "alt": "White muslin saree with blue woven motifs, displayed by weaver Sukumar Das",
-        "credit": {
-          "author": "Rangan Datta Wiki",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Moslin_2.jpg"
-        }
-      },
-      {
-        "url": "/products/muslin-boxed-01.webp",
-        "alt": "Muslin sarees packed in presentation boxes",
-        "credit": {
-          "author": "Rangan Datta Wiki",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Moslin_4.jpg"
-        }
+        "url": "/products/jam-check-soft-silk.webp",
+        "alt": "Aubergine checked soft silk saree with a copper zari border",
+        "credit": null
       }
     ],
     "popularity": 38,
@@ -1422,45 +1197,239 @@ module.exports = [
     "active": true
   },
   {
-    "slug": "komola-print-cotton",
-    "name": "Komola Print Cotton",
-    "nameBn": "কমলা ছাপা সুতি",
-    "type": "Cotton (everyday)",
-    "fabric": "Cotton",
-    "weave": "Printed",
-    "origin": "Bangladesh",
+    "slug": "magenta-nil-paar-silk",
+    "name": "Magenta Nil Paar Silk",
+    "nameBn": "ম্যাজেন্টা নীল পাড় সিল্ক",
+    "type": "Rajshahi silk",
+    "fabric": "Silk",
+    "weave": "Contrast blue and gold border",
+    "origin": "Rajshahi, Bangladesh",
     "colors": [
-      "Orange",
-      "Ivory"
+      "Magenta",
+      "Blue",
+      "Gold"
     ],
     "occasions": [
-      "Everyday",
-      "Office",
-      "Puja"
+      "Eid",
+      "Puja",
+      "Party"
     ],
-    "price": 1850,
-    "originalPrice": 1850,
+    "price": 9200,
+    "originalPrice": 9800,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean, or hand wash gently in cold water with a mild shampoo. Dry in shade and iron on low on the reverse.",
+    "description": "Magenta silk with a royal-blue and gold border, shown on the form with a blue blouse piece.",
+    "images": [
+      {
+        "url": "/products/magenta-nil-paar-silk.webp",
+        "alt": "Magenta silk saree with a blue and gold border, draped on a mannequin",
+        "credit": null
+      }
+    ],
+    "popularity": 37,
+    "isNewArrival": false,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "tia-beguni-check-silk",
+    "name": "Tia Beguni Check Silk",
+    "nameBn": "টিয়া বেগুনি চেক",
+    "type": "Half-silk / Soft silk",
+    "fabric": "Half-silk",
+    "weave": "Woven checks, purple zari border",
+    "origin": "Bangladesh",
+    "colors": [
+      "Green",
+      "Purple",
+      "Gold"
+    ],
+    "occasions": [
+      "Holud",
+      "Puja",
+      "Eid"
+    ],
+    "price": 5600,
+    "originalPrice": 6100,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean, or hand wash gently in cold water. Dry in shade and iron on low.",
+    "description": "Parrot-green checks with a deep purple zari border: the colour pairing of every Bengali festival.",
+    "images": [
+      {
+        "url": "/products/tia-beguni-check-silk.webp",
+        "alt": "Lime green checked saree with a purple zari border, worn with a purple blouse",
+        "credit": null
+      }
+    ],
+    "popularity": 86,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "genda-holud-silk",
+    "name": "Genda Holud Silk",
+    "nameBn": "গাঁদা হলুদ সিল্ক",
+    "type": "Rajshahi silk",
+    "fabric": "Silk",
+    "weave": "Purple zari border, tasselled pallu",
+    "origin": "Rajshahi, Bangladesh",
+    "colors": [
+      "Yellow",
+      "Purple",
+      "Gold"
+    ],
+    "occasions": [
+      "Holud",
+      "Puja",
+      "Eid"
+    ],
+    "price": 9600,
+    "originalPrice": 9600,
+    "withBlousePiece": true,
+    "handwoven": false,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Dry clean, or hand wash gently in cold water with a mild shampoo. Dry in shade and iron on low on the reverse.",
+    "description": "Marigold silk with a purple-and-gold zari border and tasselled pallu. Made for the holud stage.",
+    "images": [
+      {
+        "url": "/products/genda-holud-silk.webp",
+        "alt": "Marigold yellow silk saree with a purple zari border, worn with a purple blouse",
+        "credit": null
+      }
+    ],
+    "popularity": 55,
+    "isNewArrival": true,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "beige-khoyeri-monipuri",
+    "name": "Beige Khoyeri Monipuri",
+    "nameBn": "বেইজ মণিপুরী",
+    "type": "Monipuri",
+    "fabric": "Cotton",
+    "weave": "Light textured weave, contrast border",
+    "origin": "Sylhet, Bangladesh",
+    "colors": [
+      "Ivory",
+      "Maroon",
+      "Gold"
+    ],
+    "occasions": [
+      "Office",
+      "Puja",
+      "Everyday"
+    ],
+    "price": 3800,
+    "originalPrice": 4100,
+    "withBlousePiece": true,
+    "handwoven": true,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Hand wash in cold water with a mild detergent, dry in shade and iron warm.",
+    "description": "A light, textured beige weave with a maroon-and-gold border and tassels. Airy enough for summer.",
+    "images": [
+      {
+        "url": "/products/beige-khoyeri-monipuri.webp",
+        "alt": "Beige textured saree with a maroon and gold border and tassels",
+        "credit": null
+      }
+    ],
+    "popularity": 34,
+    "isNewArrival": false,
+    "bestSeller": false,
+    "active": true
+  },
+  {
+    "slug": "nil-paar-tangail",
+    "name": "Nil Paar Tangail",
+    "nameBn": "নীল পাড় টাঙ্গাইল",
+    "type": "Tangail tant",
+    "fabric": "Cotton",
+    "weave": "Handloom, navy zari paar",
+    "origin": "Tangail, Bangladesh",
+    "colors": [
+      "Ivory",
+      "Blue",
+      "Gold"
+    ],
+    "occasions": [
+      "Office",
+      "Puja",
+      "Pohela Boishakh"
+    ],
+    "price": 4200,
+    "originalPrice": 4200,
+    "withBlousePiece": true,
+    "handwoven": true,
+    "length": {
+      "sareeMetres": 5.5,
+      "blouseMetres": 0.8
+    },
+    "care": "Hand wash separately in cold water for the first few washes, starch lightly and dry in shade.",
+    "description": "Natural ivory handloom with a navy border woven with gold motifs. Pairs with a navy blouse piece.",
+    "images": [
+      {
+        "url": "/products/nil-paar-tangail.webp",
+        "alt": "Ivory handloom saree with a navy border woven with gold motifs, worn with a navy blouse",
+        "credit": null
+      }
+    ],
+    "popularity": 90,
+    "isNewArrival": false,
+    "bestSeller": true,
+    "active": true
+  },
+  {
+    "slug": "khoyeri-kalamkari-cotton",
+    "name": "Khoyeri Kalamkari Cotton",
+    "nameBn": "খয়েরি কলমকারি সুতি",
+    "type": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Printed floral border and pallu",
+    "origin": "Bangladesh",
+    "colors": [
+      "Maroon",
+      "Black"
+    ],
+    "occasions": [
+      "Office",
+      "Everyday"
+    ],
+    "price": 3400,
+    "originalPrice": 3400,
     "withBlousePiece": false,
     "handwoven": false,
     "length": {
       "sareeMetres": 5.5,
       "blouseMetres": 0
     },
-    "care": "Machine wash cold on a gentle cycle, dry in shade and iron warm.",
-    "description": "A bright orange printed cotton for every day. Washes easily, dries fast and stays soft.",
+    "care": "Hand or machine wash cold on a gentle cycle, separately for the first wash. Dry in shade and iron warm.",
+    "description": "Maroon cotton with a printed floral border and pallu in black and rust. Comfortable from morning to night.",
     "images": [
       {
-        "url": "/products/cotton-orange-print-01.webp",
-        "alt": "Folded orange printed cotton saree, Kolkata",
-        "credit": {
-          "author": "Biswarup Ganguly",
-          "license": "CC BY 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-          "source": "https://commons.wikimedia.org/wiki/File:Cotton_Sarees_-_Kolkata_2003-10-30_00527.JPG"
-        }
+        "url": "/products/khoyeri-kalamkari-cotton.webp",
+        "alt": "Maroon cotton saree with a black and rust floral printed border",
+        "credit": null
       }
     ],
-    "popularity": 37,
+    "popularity": 39,
     "isNewArrival": false,
     "bestSeller": false,
     "active": true

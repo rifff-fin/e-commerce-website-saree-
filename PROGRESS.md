@@ -13,7 +13,7 @@ Not deployed yet; no git remote configured.
 | API (Express 5, Mongoose, MVC) | Done: catalog with filters and facets, product + related, meta, banners, coupons, orders (server-side pricing), tracking, newsletter, admin (JWT) |
 | Store | Done: home, shop with URL filters, product pages, quick view, bag, checkout (5 payment methods), success, tracking, wishlist, recently viewed, credits, FAQ, 404, EN / বাংলা toggle |
 | Admin `/admin` | Done: dashboard, sarees CRUD with photos (Cloudinary upload, store paths, reorder, alt text), orders + status, coupons, banners, subscribers + CSV |
-| Photos | 47 licensed Wikimedia Commons photos in the store, 1 marked Unverified and left out; see gaps below |
+| Photos | 37 photos supplied by the owner (replaced the Commons placeholders on 2026-10-23); usage rights to confirm |
 | Deploy | `netlify.toml` and `render.yaml` ready; needs Atlas, Cloudinary keys and the Render URL |
 
 ## Plan (as started)
@@ -71,7 +71,10 @@ as the single accent (the suggested `#B5576F` is 4.2:1 on the blush, below AA fo
 - **Search** matches at the start of words, so "red" does not find "scattered".
 - **Floating chat buttons are hidden at checkout** (they covered form fields on phones).
 
-## Photo gaps (no licensed, verifiable photos found)
+## Photo gaps (first build, now superseded)
+
+*Kept for the record. On 2026-10-23 the owner supplied 37 photos, which replaced all the Commons
+placeholders; every type except Muslin now has sarees. The table below described the first build.*
 
 These types are in the filters (marked "soon") but have **no products** until the client's
 photoshoot. Nothing was filled with AI or mismatched photos.
@@ -92,9 +95,9 @@ identifiable).
 
 ## What still needs the client
 
-- Real photos for all 32 sarees (3:4 portrait drape and detail shots), and for the 5 missing
-  types. Drop them in `photos-inbox/` and run `npm run photos` in `backend/`, or upload in the
-  admin panel.
+- **Photo rights:** confirm the store owns or may use each of the 37 supplied photos (several
+  look like stock, Pinterest or AI-generated images). Replace any that are not cleared.
+- More photos per saree (detail and back drape) so cards get a hover photo; Muslin photos.
 - Brand name, tagline, logo approval.
 - Phone, WhatsApp number, Facebook page, email, showroom address and hours (`copy.ts → brand`).
 - Real prices, names, fabrics and origins for each saree; blouse-piece facts.
@@ -112,6 +115,19 @@ identifiable).
 5. Pick extras from `docs/feature-checklist.md`.
 
 ## Log
+
+### 2026-10-23 (later): owner's photos
+
+- Replaced all 48 Commons photos with the 37 photos the owner supplied (38 files, two identical);
+  rebuilt the seed catalog as 37 sarees, one per photo, labelled by what each photo shows
+  (10 of 11 types; no Muslin). Updated hero banners, weave tiles (now a 5 × 2 grid, a swipe rail
+  on smaller screens), occasion edits, lookbook, Jamdani story and share image.
+- `content/images.json` now holds the owner's photos (`clientPhoto: true`, rights `TODO(client)`);
+  `/credits` lists only third-party photos and otherwise says the photos are the brand's.
+- Fixed the photo script: it now creates `frontend/public/products/` and crops small photos to
+  3:4 (before, sharp skipped the crop for photos under 1200 × 1600).
+- Re-ran QA: homepage, shop, product and credits at both sizes; checkout with bKash and card,
+  and offline COD on a phone; all passed.
 
 ### 2026-10-23
 

@@ -181,12 +181,14 @@ export function ProductPage() {
               </ul>
             </details>
 
-            <p className="pdp-photo-note">
-              {copy.photoNote}{' '}
-              <Link to="/credits" className="link">
-                {copy.credits}
-              </Link>
-            </p>
+            {product.images.some((image) => image.credit) && (
+              <p className="pdp-photo-note">
+                {copy.photoNote}{' '}
+                <Link to="/credits" className="link">
+                  {copy.credits}
+                </Link>
+              </p>
+            )}
           </div>
         </div>
       </div>

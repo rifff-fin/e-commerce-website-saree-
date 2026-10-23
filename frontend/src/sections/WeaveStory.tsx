@@ -16,8 +16,8 @@ export function WeaveStory() {
         <div className="story-media" data-reveal="image">
           <div ref={media} className="story-parallax">
             <Photo
-              src="/products/jamdani-grey-red-02.webp"
-              alt="Close-up of red Jamdani motifs woven into a grey cotton ground"
+              src="/products/khoyeri-buti-jamdani.webp"
+              alt="Wine Jamdani saree with gold buti and a woven zari border"
               sizes="(max-width: 800px) 100vw, 50vw"
             />
           </div>

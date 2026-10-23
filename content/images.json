@@ -1,626 +1,502 @@
 [
   {
-    "file": "jamdani-black-gold-01.webp",
-    "thumb": "jamdani-black-gold-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, Dhakai motifs",
-    "colours": [
-      "Black",
-      "Gold"
-    ],
-    "occasion": [
-      "Party",
-      "Eid"
-    ],
-    "description": "Black Dhakai Jamdani with gold-thread motifs and a woven paar, BSCIC Jamdani Palli, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_10.jpg",
-    "sourceTitle": "Jamdani display at BSCIC Jamdani palli, Narayanganj 10.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-black-gold-02.webp",
-    "thumb": "jamdani-black-gold-02-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, Dhakai motifs",
-    "colours": [
-      "Black",
-      "Gold"
-    ],
-    "occasion": [
-      "Party",
-      "Eid"
-    ],
-    "description": "Detail of a black Jamdani with gold motifs on display at BSCIC Jamdani Palli, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_11.jpg",
-    "sourceTitle": "Jamdani display at BSCIC Jamdani palli, Narayanganj 11.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-black-copper-01.webp",
-    "thumb": "jamdani-black-copper-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, scattered buti",
-    "colours": [
-      "Black",
-      "Copper"
-    ],
-    "occasion": [
-      "Party",
-      "Eid"
-    ],
-    "description": "Sheer black Jamdani with copper-tone buti motifs, BSCIC Jamdani Palli, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_5.jpg",
-    "sourceTitle": "Jamdani display at BSCIC Jamdani palli, Narayanganj 5.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-black-copper-02.webp",
-    "thumb": "jamdani-black-copper-02-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, single buti",
-    "colours": [
-      "Black",
-      "Copper"
-    ],
-    "occasion": [
-      "Party",
-      "Eid"
-    ],
-    "description": "Close-up of one copper buti on a sheer black Jamdani, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_6.jpg",
-    "sourceTitle": "Jamdani display at BSCIC Jamdani palli, Narayanganj 6.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-black-stripe-01.webp",
-    "thumb": "jamdani-black-stripe-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, stripes and buti",
-    "colours": [
-      "Black",
-      "Gold"
-    ],
-    "occasion": [
-      "Party",
-      "Puja"
-    ],
-    "description": "Black Jamdani with gold stripes and motifs, BSCIC Jamdani Palli, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_8.jpg",
-    "sourceTitle": "Jamdani display at BSCIC Jamdani palli, Narayanganj 8.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-black-stripe-02.webp",
-    "thumb": "jamdani-black-stripe-02-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, stripes and buti",
-    "colours": [
-      "Black",
-      "Gold"
-    ],
-    "occasion": [
-      "Party",
-      "Puja"
-    ],
-    "description": "Black striped Jamdani held up to the light, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_9.jpg",
-    "sourceTitle": "Jamdani display at BSCIC Jamdani palli, Narayanganj 9.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-pink-black-01.webp",
-    "thumb": "jamdani-pink-black-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, Dhakai motifs",
-    "colours": [
-      "Pink",
-      "Black",
-      "Gold"
-    ],
-    "occasion": [
-      "Eid",
-      "Puja"
-    ],
-    "description": "Pink Jamdani paar beside a black Jamdani with gold motifs, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_2.jpg",
-    "sourceTitle": "Jamdani display at BSCIC Jamdani palli, Narayanganj 2.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-pink-black-02.webp",
-    "thumb": "jamdani-pink-black-02-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, Dhakai motifs",
-    "colours": [
-      "Black",
-      "Pink",
-      "Gold"
-    ],
-    "occasion": [
-      "Eid",
-      "Puja"
-    ],
-    "description": "Folded black and pink Jamdani sarees, BSCIC Jamdani Palli, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_display_at_BSCIC_Jamdani_palli,_Narayanganj_3.jpg",
-    "sourceTitle": "Jamdani display at BSCIC Jamdani palli, Narayanganj 3.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-grey-red-01.webp",
-    "thumb": "jamdani-grey-red-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton (not stated by source)",
-    "weave": "Handwoven, Dhakai motifs",
-    "colours": [
-      "Grey",
-      "Red"
-    ],
-    "occasion": [
-      "Pohela Boishakh",
-      "Holud"
-    ],
-    "description": "Grey Jamdani with red motifs and a red paar",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_DSC_0500.JPG",
-    "sourceTitle": "Jamdani DSC 0500.JPG",
-    "author": "Atudu",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-grey-red-02.webp",
-    "thumb": "jamdani-grey-red-02-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton (not stated by source)",
-    "weave": "Handwoven, self-weave",
-    "colours": [
-      "Grey",
-      "Red"
-    ],
-    "occasion": [
-      "Pohela Boishakh",
-      "Holud"
-    ],
-    "description": "Close-up of red Jamdani motifs on a grey ground",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_DSC_0503.JPG",
-    "sourceTitle": "Jamdani DSC 0503.JPG",
-    "author": "Atudu",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-yellow-01.webp",
-    "thumb": "jamdani-yellow-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, all-over buti",
-    "colours": [
-      "Yellow"
-    ],
-    "occasion": [
-      "Holud"
-    ],
-    "description": "Yellow Jamdani with all-over buti, shown at a stall in Sonargaon, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_Saree_Sale_Sonargaon.jpg",
-    "sourceTitle": "Jamdani Saree Sale Sonargaon.jpg",
-    "author": "Armanaziz",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-pink-01.webp",
-    "thumb": "jamdani-pink-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, scattered buti",
-    "colours": [
-      "Pink",
-      "Gold"
-    ],
-    "occasion": [
-      "Eid",
-      "Party"
-    ],
-    "description": "Pink Jamdani with gold and white buti, BSCIC Jamdani Palli, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj_4.jpg",
-    "sourceTitle": "Jamdani shop at BSCIC Jamdani palli, Narayanganj 4.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-red-01.webp",
-    "thumb": "jamdani-red-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, scattered buti",
-    "colours": [
-      "Red",
-      "Gold"
-    ],
-    "occasion": [
-      "Wedding",
-      "Holud"
-    ],
-    "description": "Red Jamdani with small gold buti, BSCIC Jamdani Palli, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj_6.jpg",
-    "sourceTitle": "Jamdani shop at BSCIC Jamdani palli, Narayanganj 6.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "jamdani-maroon-white-01.webp",
-    "thumb": "jamdani-maroon-white-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, Dhakai motifs",
+    "file": "gulmohor-mauve-soft-silk.webp",
+    "thumb": "gulmohor-mauve-soft-silk-480.webp",
+    "sareeType": "Half-silk / Soft silk",
+    "fabric": "Half-silk",
+    "weave": "Zari border with black edge",
     "colours": [
       "Maroon",
+      "Gold",
+      "Black"
+    ],
+    "occasion": [
+      "Eid",
+      "Party",
+      "Office"
+    ],
+    "description": "Dusty mauve soft silk saree with a gold and black woven border, worn with a black blouse",
+    "source": "Supplied by the owner on 2026-10-23 (original file 1.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "golapi-check-half-silk.webp",
+    "thumb": "golapi-check-half-silk-480.webp",
+    "sareeType": "Half-silk / Soft silk",
+    "fabric": "Half-silk",
+    "weave": "Woven checks, green zari border",
+    "colours": [
+      "Pink",
+      "Green",
+      "Gold"
+    ],
+    "occasion": [
+      "Eid",
+      "Office",
+      "Puja"
+    ],
+    "description": "Pale pink checked half-silk saree with a dark green zari border, worn with a green blouse",
+    "source": "Supplied by the owner on 2026-10-23 (original file 2.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "shonali-buti-ivory-half-silk.webp",
+    "thumb": "shonali-buti-ivory-half-silk-480.webp",
+    "sareeType": "Half-silk / Soft silk",
+    "fabric": "Half-silk",
+    "weave": "Gold buti, olive zari border",
+    "colours": [
+      "Ivory",
+      "Green",
+      "Gold"
+    ],
+    "occasion": [
+      "Puja",
+      "Eid",
+      "Wedding"
+    ],
+    "description": "Ivory half-silk saree with gold buti and an olive green zari border, worn with a green blouse",
+    "source": "Supplied by the owner on 2026-10-23 (original file 3.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "kalo-buti-cotton.webp",
+    "thumb": "kalo-buti-cotton-480.webp",
+    "sareeType": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Woven motifs and striped paar",
+    "colours": [
+      "Black",
       "White"
     ],
     "occasion": [
-      "Wedding",
+      "Everyday",
+      "Office",
+      "Pohela Boishakh"
+    ],
+    "description": "Black cotton saree with off-white woven motifs, worn by a woman sitting on stone steps",
+    "source": "Supplied by the owner on 2026-10-23 (original file 4.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "chhapa-phul-ivory-cotton.webp",
+    "thumb": "chhapa-phul-ivory-cotton-480.webp",
+    "sareeType": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Hand block print",
+    "colours": [
+      "Ivory",
+      "Black"
+    ],
+    "occasion": [
+      "Everyday",
+      "Office"
+    ],
+    "description": "Ivory cotton saree with black block-printed flowers and border, worn with a black blouse",
+    "source": "Supplied by the owner on 2026-10-23 (original file 5.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "alpona-gram-print-cotton.webp",
+    "thumb": "alpona-gram-print-cotton-480.webp",
+    "sareeType": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Folk-figure print",
+    "colours": [
+      "Ivory",
+      "Black"
+    ],
+    "occasion": [
+      "Everyday",
+      "Pohela Boishakh"
+    ],
+    "description": "Cream cotton saree printed with charcoal folk figures and trees",
+    "source": "Supplied by the owner on 2026-10-23 (original file 6.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "kalo-lata-printed-silk.webp",
+    "thumb": "kalo-lata-printed-silk-480.webp",
+    "sareeType": "Rajshahi silk",
+    "fabric": "Silk",
+    "weave": "Floral print, zari border",
+    "colours": [
+      "White",
+      "Black",
+      "Gold"
+    ],
+    "occasion": [
+      "Party",
       "Eid"
     ],
-    "description": "Maroon Jamdani with white motifs, opened at a shop in BSCIC Jamdani Palli, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj_8.jpg",
-    "sourceTitle": "Jamdani shop at BSCIC Jamdani palli, Narayanganj 8.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "White silk saree with black floral print and a gold zari border, worn with a black blouse",
+    "source": "Supplied by the owner on 2026-10-23 (original file 7.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "jamdani-peach-01.webp",
-    "thumb": "jamdani-peach-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, floral buti",
+    "file": "lal-kalo-block-print-cotton.webp",
+    "thumb": "lal-kalo-block-print-cotton-480.webp",
+    "sareeType": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Hand block print",
     "colours": [
-      "Peach",
-      "Red"
+      "Red",
+      "Black",
+      "White"
     ],
     "occasion": [
-      "Eid",
-      "Party"
+      "Everyday",
+      "Pohela Boishakh",
+      "Puja"
     ],
-    "description": "Folded peach Jamdani with red and cream floral buti, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj.jpg",
-    "sourceTitle": "Jamdani shop at BSCIC Jamdani palli, Narayanganj.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Red cotton saree with white block print and a black zigzag border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 8.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "jamdani-peach-02.webp",
-    "thumb": "jamdani-peach-02-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, floral buti",
+    "file": "morich-paisley-cotton.webp",
+    "thumb": "morich-paisley-cotton-480.webp",
+    "sareeType": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Hand block print",
     "colours": [
-      "Peach",
-      "Red"
+      "Orange",
+      "Black",
+      "Ivory"
     ],
     "occasion": [
-      "Eid",
-      "Party"
+      "Everyday",
+      "Office"
     ],
-    "description": "Peach Jamdani sarees folded on a shop table, Narayanganj",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj2.jpg",
-    "sourceTitle": "Jamdani shop at BSCIC Jamdani palli, Narayanganj2.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Rust red cotton saree with printed flowers and a black and cream paisley pallu",
+    "source": "Supplied by the owner on 2026-10-23 (original file 9.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "jamdani-multistripe-01.webp",
-    "thumb": "jamdani-multistripe-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton or half-silk (not stated by source)",
-    "weave": "Handwoven, diagonal stripes",
+    "file": "tia-sui-kantha-cotton.webp",
+    "thumb": "tia-sui-kantha-cotton-480.webp",
+    "sareeType": "Kantha stitch",
+    "fabric": "Cotton",
+    "weave": "Hand embroidery with tassels",
     "colours": [
-      "Multicolour"
+      "Green",
+      "Pink"
+    ],
+    "occasion": [
+      "Holud",
+      "Party"
+    ],
+    "description": "Lime green cotton saree with embroidered peacock motifs and pink tassels",
+    "source": "Supplied by the owner on 2026-10-23 (original file 10.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "holud-paisley-cotton.webp",
+    "thumb": "holud-paisley-cotton-480.webp",
+    "sareeType": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Hand block print",
+    "colours": [
+      "Yellow",
+      "White"
+    ],
+    "occasion": [
+      "Holud",
+      "Everyday"
+    ],
+    "description": "Mustard yellow cotton saree with white block-printed leaves and paisleys",
+    "source": "Supplied by the owner on 2026-10-23 (original file 11.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "lal-pakhi-mul-cotton.webp",
+    "thumb": "lal-pakhi-mul-cotton-480.webp",
+    "sareeType": "Cotton (everyday)",
+    "fabric": "Cotton",
+    "weave": "Printed birds, soft mul",
+    "colours": [
+      "Red",
+      "White"
     ],
     "occasion": [
       "Pohela Boishakh",
-      "Party"
+      "Everyday"
     ],
-    "description": "Multicolour diagonal-stripe Jamdani held open at a shop in BSCIC Jamdani Palli",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj_5.jpg",
-    "sourceTitle": "Jamdani shop at BSCIC Jamdani palli, Narayanganj 5.jpg",
-    "author": "Wasiul Bahar",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Red mul cotton saree with small white printed birds, worn with a white blouse",
+    "source": "Supplied by the owner on 2026-10-23 (original file 12.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "jamdani-display-01.webp",
-    "thumb": "jamdani-display-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton (not stated by source)",
-    "weave": "Handwoven, Dhakai motifs",
+    "file": "golap-roktim-sheer-saree.webp",
+    "thumb": "golap-roktim-sheer-saree-480.webp",
+    "sareeType": "Georgette / Chiffon",
+    "fabric": "Georgette",
+    "weave": "Gold rose print, tasselled pallu",
     "colours": [
-      "Multicolour"
+      "Red",
+      "Gold"
+    ],
+    "occasion": [
+      "Party",
+      "Wedding"
+    ],
+    "description": "Sheer deep red saree with gold traced roses and a tasselled pallu",
+    "source": "Supplied by the owner on 2026-10-23 (original file 13.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "sage-tissue-silk.webp",
+    "thumb": "sage-tissue-silk-480.webp",
+    "sareeType": "Tissue / Organza",
+    "fabric": "Tissue",
+    "weave": "Gold buti and zari border",
+    "colours": [
+      "Green",
+      "Gold"
     ],
     "occasion": [
       "Eid",
-      "Pohela Boishakh"
+      "Wedding",
+      "Party"
     ],
-    "description": "Jamdani sarees displayed at a shop in the Sonargaon crafts sales centre",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_(_%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A7%80)_.jpg",
-    "sourceTitle": "Jamdani ( জামদানী) .jpg",
-    "author": "Salim_Khandoker",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Sage green tissue silk saree with gold buti, standing by a sunlit window",
+    "source": "Supplied by the owner on 2026-10-23 (original file 14.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "jamdani-folded-01.webp",
-    "thumb": "jamdani-folded-01-480.webp",
-    "sareeType": "Jamdani",
-    "fabric": "Cotton (not stated by source)",
-    "weave": "Handwoven",
+    "file": "sobuj-sona-tissue.webp",
+    "thumb": "sobuj-sona-tissue-480.webp",
+    "sareeType": "Tissue / Organza",
+    "fabric": "Tissue",
+    "weave": "Gold-shot weave",
     "colours": [
-      "Multicolour"
+      "Green",
+      "Gold"
     ],
     "occasion": [
-      "Everyday"
+      "Eid",
+      "Party"
     ],
-    "description": "A pile of folded Jamdani sarees",
-    "source": "https://commons.wikimedia.org/wiki/File:Jamdani_Saree_2014.jpg",
-    "sourceTitle": "Jamdani Saree 2014.jpg",
-    "author": "Aashaa",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Close-up of a green and gold tissue saree with a woven border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 15.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "benarasi-gold-01.webp",
-    "thumb": "benarasi-gold-01-480.webp",
+    "file": "gulabi-rupali-katan.webp",
+    "thumb": "gulabi-rupali-katan-480.webp",
     "sareeType": "Katan / Benarasi",
-    "fabric": "Silk (not stated by source)",
-    "weave": "Brocade with zari border",
+    "fabric": "Silk",
+    "weave": "Silver zari brocade border",
     "colours": [
-      "Gold",
-      "Green"
+      "Pink",
+      "Gold"
     ],
     "occasion": [
       "Wedding",
       "Holud"
     ],
-    "description": "Gold-green Banarasi brocade saree on display at Dilli Haat, Delhi (India)",
-    "source": "https://commons.wikimedia.org/wiki/File:Saree_on_display_at_Dilli_Haat.JPG",
-    "sourceTitle": "Saree on display at Dilli Haat.JPG",
-    "author": "Ekabhishek",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Rose mauve katan silk saree with silver zari brocade border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 16.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "benarasi-gold-drape-01.webp",
-    "thumb": "benarasi-gold-drape-01-480.webp",
-    "sareeType": "Katan / Benarasi",
-    "fabric": "Silk with metallic thread",
-    "weave": "Brocade, zari border",
+    "file": "akashi-tissue-organza.webp",
+    "thumb": "akashi-tissue-organza-480.webp",
+    "sareeType": "Tissue / Organza",
+    "fabric": "Organza",
+    "weave": "Gold lace border",
     "colours": [
-      "Gold"
-    ],
-    "occasion": [
-      "Wedding"
-    ],
-    "description": "Gold silk sari, probably Benares, late 19th or early 20th century, Honolulu Museum of Art",
-    "source": "https://commons.wikimedia.org/wiki/File:Sari_from_India_(probably_Benares),_late_19th_or_early_20th_century,_silk_with_metallic_thread,_HAA.jpg",
-    "sourceTitle": "Sari from India (probably Benares), late 19th or early 20th century, silk with metallic thread, HAA.jpg",
-    "author": "Hiart",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "benarasi-ivory-drape-01.webp",
-    "thumb": "benarasi-ivory-drape-01-480.webp",
-    "sareeType": "Katan / Benarasi",
-    "fabric": "Silk, gold thread, satin",
-    "weave": "Brocade",
-    "colours": [
-      "Ivory",
+      "Blue",
       "Gold"
     ],
     "occasion": [
       "Wedding",
-      "Puja"
+      "Party"
     ],
-    "description": "Ivory Varanasi silk sari with gold thread (1960s), draped on a form, Textile Museum of Canada",
-    "source": "https://commons.wikimedia.org/wiki/File:Sari,_Varanasi,_Uttar_Pradesh,_India,_1960s,_silk,_gold_thread,_satin_-_Textile_Museum_of_Canada_-_DSC00943.JPG",
-    "sourceTitle": "Sari, Varanasi, Uttar Pradesh, India, 1960s, silk, gold thread, satin - Textile Museum of Canada - DSC00943.JPG",
-    "author": "Daderot",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Ice blue tissue organza saree with a gold lace border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 17.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "benarasi-purple-01.webp",
-    "thumb": "benarasi-purple-01-480.webp",
-    "sareeType": "Katan / Benarasi",
-    "fabric": "Silk (not stated by source)",
-    "weave": "Brocade: konia, patti, bel, jangla and shikargah motifs",
+    "file": "nil-jhalor-tissue.webp",
+    "thumb": "nil-jhalor-tissue-480.webp",
+    "sareeType": "Tissue / Organza",
+    "fabric": "Tissue",
+    "weave": "Embellished scalloped border",
     "colours": [
-      "Purple",
+      "Blue",
+      "Grey"
+    ],
+    "occasion": [
+      "Party",
+      "Wedding"
+    ],
+    "description": "Teal blue tissue saree with an embellished scalloped border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 18.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "khoyeri-lace-soft-silk.webp",
+    "thumb": "khoyeri-lace-soft-silk-480.webp",
+    "sareeType": "Half-silk / Soft silk",
+    "fabric": "Half-silk",
+    "weave": "Embroidered buti, gold lace border",
+    "colours": [
+      "Maroon",
       "Gold"
     ],
     "occasion": [
-      "Wedding"
+      "Wedding",
+      "Eid"
     ],
-    "description": "Corner (konia) of a purple Banarasi brocade sari with gold zari",
-    "source": "https://commons.wikimedia.org/wiki/File:Konia,_brocade_sari.jpg",
-    "sourceTitle": "Konia, brocade sari.jpg",
-    "author": "Anilbhardwajnoida",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Maroon soft silk saree with embroidered buti and a gold lace border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 19.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "benarasi-purple-02.webp",
-    "thumb": "benarasi-purple-02-480.webp",
-    "sareeType": "Katan / Benarasi",
-    "fabric": "Silk, gold thread",
-    "weave": "Brocade, all-over jaal",
+    "file": "lal-kaj-tissue.webp",
+    "thumb": "lal-kaj-tissue-480.webp",
+    "sareeType": "Tissue / Organza",
+    "fabric": "Tissue",
+    "weave": "Embroidered border and buti",
     "colours": [
-      "Purple",
+      "Red",
       "Gold"
     ],
     "occasion": [
-      "Wedding"
+      "Wedding",
+      "Holud"
     ],
-    "description": "Purple Varanasi silk sari with a gold medallion jaal, Textile Museum of Canada",
-    "source": "https://commons.wikimedia.org/wiki/File:Sari,_Varanasi,_Uttar_Pradesh,_India,_view_1,_20th_century,_silk,_gold_thread_-_Textile_Museum_of_Canada_-_DSC00954.JPG",
-    "sourceTitle": "Sari, Varanasi, Uttar Pradesh, India, view 1, 20th century, silk, gold thread - Textile Museum of Canada - DSC00954.JPG",
-    "author": "Daderot",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Red tissue saree with an embroidered border and gold buti",
+    "source": "Supplied by the owner on 2026-10-23 (original file 20.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "benarasi-purple-03.webp",
-    "thumb": "benarasi-purple-03-480.webp",
+    "file": "khoyeri-jaal-benarasi.webp",
+    "thumb": "khoyeri-jaal-benarasi-480.webp",
     "sareeType": "Katan / Benarasi",
-    "fabric": "Silk, gold thread",
-    "weave": "Brocade",
-    "colours": [
-      "Purple",
-      "Gold"
-    ],
-    "occasion": [
-      "Wedding"
-    ],
-    "description": "Detail of a gold medallion on a purple Varanasi silk sari, Textile Museum of Canada",
-    "source": "https://commons.wikimedia.org/wiki/File:Sari,_Varanasi,_Uttar_Pradesh,_India,_view_2,_20th_century,_silk,_gold_thread_-_Textile_Museum_of_Canada_-_DSC00956.JPG",
-    "sourceTitle": "Sari, Varanasi, Uttar Pradesh, India, view 2, 20th century, silk, gold thread - Textile Museum of Canada - DSC00956.JPG",
-    "author": "Daderot",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "benarasi-maroon-01.webp",
-    "thumb": "benarasi-maroon-01-480.webp",
-    "sareeType": "Katan / Benarasi",
-    "fabric": "Silk (not stated by source)",
-    "weave": "Brocade, zari",
+    "fabric": "Silk",
+    "weave": "All-over zari jaal, brocade pallu",
     "colours": [
       "Maroon",
       "Gold"
@@ -628,147 +504,269 @@
     "occasion": [
       "Wedding"
     ],
-    "description": "Maroon Benarasi brocade with a gold lattice and roundel, Indian Museum, Kolkata",
-    "source": "https://commons.wikimedia.org/wiki/File:Shawl,_Varanasi,_Uttar_Pradesh,_India,_view_2,_late_19th_to_early_20th_century,_silk,_gold_thread_-_Textile_Museum_of_Canada_-_DSC00969.JPG",
-    "sourceTitle": "Shawl, Varanasi, Uttar Pradesh, India, view 2, late 19th to early 20th century, silk, gold thread - Textile Museum of Canada - DSC00969.JPG",
-    "author": "Daderot",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Maroon Benarasi saree with an all-over gold floral jaal and a brocade border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 21.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "benarasi-red-01.webp",
-    "thumb": "benarasi-red-01-480.webp",
+    "file": "beguni-buti-katan.webp",
+    "thumb": "beguni-buti-katan-480.webp",
     "sareeType": "Katan / Benarasi",
-    "fabric": "Silk, gold and silver thread",
-    "weave": "Brocade, supplementary weft",
+    "fabric": "Silk",
+    "weave": "Zari buti, brocade border",
     "colours": [
-      "Red",
+      "Maroon",
       "Gold"
     ],
     "occasion": [
-      "Wedding"
+      "Wedding",
+      "Eid"
     ],
-    "description": "Red Varanasi silk sari with gold and silver thread (18th century), Honolulu Museum of Art",
-    "source": "https://commons.wikimedia.org/wiki/File:Sari_from_India,_Varanasi,_18th_century,_Honolulu_Museum_of_Art_10911.1.JPG",
-    "sourceTitle": "Sari from India, Varanasi, 18th century, Honolulu Museum of Art 10911.1.JPG",
-    "author": "Hiart",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Wine coloured katan saree with zari buti and a wide brocade border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 22.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "benarasi-brown-01.webp",
-    "thumb": "benarasi-brown-01-480.webp",
-    "sareeType": "Katan / Benarasi",
-    "fabric": "Silk, gold thread",
-    "weave": "Brocade, diamond jaal",
+    "file": "koffee-sheer-chiffon.webp",
+    "thumb": "koffee-sheer-chiffon-480.webp",
+    "sareeType": "Georgette / Chiffon",
+    "fabric": "Chiffon",
+    "weave": "Embroidered border",
     "colours": [
       "Brown",
       "Gold"
     ],
     "occasion": [
+      "Party",
+      "Eid"
+    ],
+    "description": "Sheer coffee brown chiffon saree with an embroidered border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 23.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "shiuli-olive-georgette.webp",
+    "thumb": "shiuli-olive-georgette-480.webp",
+    "sareeType": "Georgette / Chiffon",
+    "fabric": "Georgette",
+    "weave": "Sequin buti, tasselled pallu",
+    "colours": [
+      "Green",
+      "Gold"
+    ],
+    "occasion": [
+      "Party",
+      "Holud"
+    ],
+    "description": "Olive green georgette saree with sequin flowers and tassels",
+    "source": "Supplied by the owner on 2026-10-23 (original file 25.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "banani-crush-georgette.webp",
+    "thumb": "banani-crush-georgette-480.webp",
+    "sareeType": "Georgette / Chiffon",
+    "fabric": "Georgette",
+    "weave": "Crushed texture, sequin dots",
+    "colours": [
+      "Green",
+      "Gold"
+    ],
+    "occasion": [
+      "Party",
+      "Everyday"
+    ],
+    "description": "Bottle green crushed georgette saree with gold sequin dots, worn with a black blouse",
+    "source": "Supplied by the owner on 2026-10-23 (original file 26.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "tota-sobuj-rajshahi-silk.webp",
+    "thumb": "tota-sobuj-rajshahi-silk-480.webp",
+    "sareeType": "Rajshahi silk",
+    "fabric": "Silk",
+    "weave": "Wide gold zari border, tasselled",
+    "colours": [
+      "Green",
+      "Gold"
+    ],
+    "occasion": [
+      "Eid",
+      "Holud",
+      "Puja"
+    ],
+    "description": "Glossy green silk saree with a broad gold zari border and tassels",
+    "source": "Supplied by the owner on 2026-10-23 (original file 27.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "khoyeri-sona-paar-tant.webp",
+    "thumb": "khoyeri-sona-paar-tant-480.webp",
+    "sareeType": "Tangail tant",
+    "fabric": "Cotton",
+    "weave": "Handloom, zari paar",
+    "colours": [
+      "Maroon",
+      "Gold"
+    ],
+    "occasion": [
+      "Office",
+      "Puja",
+      "Everyday"
+    ],
+    "description": "Maroon cotton saree with a slim gold border, worn outdoors",
+    "source": "Supplied by the owner on 2026-10-23 (original file 28.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "dorakata-paar-tant.webp",
+    "thumb": "dorakata-paar-tant-480.webp",
+    "sareeType": "Tangail tant",
+    "fabric": "Cotton",
+    "weave": "Handloom, striped zari paar",
+    "colours": [
+      "Maroon",
+      "Gold"
+    ],
+    "occasion": [
+      "Puja",
+      "Office"
+    ],
+    "description": "Close-up of a maroon cotton saree with a striped gold border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 29.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "rani-lal-katan.webp",
+    "thumb": "rani-lal-katan-480.webp",
+    "sareeType": "Katan / Benarasi",
+    "fabric": "Silk",
+    "weave": "Zari buti, brocade border and pallu",
+    "colours": [
+      "Maroon",
+      "Gold"
+    ],
+    "occasion": [
       "Wedding",
       "Eid"
     ],
-    "description": "Brown Varanasi silk with a gold diamond lattice, Textile Museum of Canada",
-    "source": "https://commons.wikimedia.org/wiki/File:Shawl,_Varanasi,_Uttar_Pradesh,_India,_view_1,_late_19th_to_early_20th_century,_silk,_gold_thread_-_Textile_Museum_of_Canada_-_DSC00965.JPG",
-    "sourceTitle": "Shawl, Varanasi, Uttar Pradesh, India, view 1, late 19th to early 20th century, silk, gold thread - Textile Museum of Canada - DSC00965.JPG",
-    "author": "Daderot",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Maroon katan saree with gold buti and a brocade border, worn in a courtyard",
+    "source": "Supplied by the owner on 2026-10-23 (original file 30.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "benarasi-violet-01.webp",
-    "thumb": "benarasi-violet-01-480.webp",
-    "sareeType": "Katan / Benarasi",
-    "fabric": "Silk (not stated by source)",
-    "weave": "Brocade, diagonal floral bands",
+    "file": "khoyeri-buti-jamdani.webp",
+    "thumb": "khoyeri-buti-jamdani-480.webp",
+    "sareeType": "Jamdani",
+    "fabric": "Half-silk",
+    "weave": "Handwoven buti and zari paar",
+    "colours": [
+      "Maroon",
+      "Gold"
+    ],
+    "occasion": [
+      "Eid",
+      "Puja",
+      "Wedding"
+    ],
+    "description": "Wine coloured Jamdani saree with gold buti and zari border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 31.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
+    "downloadedAt": "2026-10-23",
+    "inStore": true,
+    "clientPhoto": true
+  },
+  {
+    "file": "jam-check-soft-silk.webp",
+    "thumb": "jam-check-soft-silk-480.webp",
+    "sareeType": "Half-silk / Soft silk",
+    "fabric": "Half-silk",
+    "weave": "Woven checks, copper zari border",
     "colours": [
       "Purple",
       "Gold"
     ],
     "occasion": [
-      "Wedding",
-      "Eid"
+      "Office",
+      "Eid",
+      "Party"
     ],
-    "description": "Benarasi saree with diagonal floral zari bands, early 19th century, Indian Museum, Kolkata",
-    "source": "https://commons.wikimedia.org/wiki/File:Textile_exhibits_at_the_Indian_Museum,_Kolkata_02.jpg",
-    "sourceTitle": "Textile exhibits at the Indian Museum, Kolkata 02.jpg",
-    "author": "Kritzolina",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Aubergine checked soft silk saree with a copper zari border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 32.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "benarasi-market-01.webp",
-    "thumb": "benarasi-market-01-480.webp",
-    "sareeType": "Katan / Benarasi",
-    "fabric": "Silk (not stated by source)",
-    "weave": "Brocade",
-    "colours": [
-      "Red",
-      "Pink",
-      "Gold"
-    ],
-    "occasion": [
-      "Wedding"
-    ],
-    "description": "Banarasi sarees laid out on wooden display blocks",
-    "source": "https://commons.wikimedia.org/wiki/File:Banarasi_Sari_on_viewing_wooden_blocks_01.jpg",
-    "sourceTitle": "Banarasi Sari on viewing wooden blocks 01.jpg",
-    "author": "Suyash Dwivedi",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "katan-mirpur-palli-01.webp",
-    "thumb": "katan-mirpur-palli-01-480.webp",
-    "sareeType": "Katan / Benarasi",
-    "fabric": "Not applicable (street view)",
-    "weave": "Not applicable",
-    "colours": [
-      "Multicolour"
-    ],
-    "occasion": [
-      "Wedding"
-    ],
-    "description": "Benarasi saree shops at Mirpur Benarasi Palli, Dhaka",
-    "source": "https://commons.wikimedia.org/wiki/File:Benarasi_Palli%27s_shop_of_Mirpur_Dhaka,2014.jpg",
-    "sourceTitle": "Benarasi Palli's shop of Mirpur Dhaka,2014.jpg",
-    "author": "Aashaa",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "rajshahi-silk-magenta-01.webp",
-    "thumb": "rajshahi-silk-magenta-01-480.webp",
+    "file": "magenta-nil-paar-silk.webp",
+    "thumb": "magenta-nil-paar-silk-480.webp",
     "sareeType": "Rajshahi silk",
     "fabric": "Silk",
-    "weave": "Woven border and anchal",
+    "weave": "Contrast blue and gold border",
     "colours": [
       "Magenta",
+      "Blue",
       "Gold"
     ],
     "occasion": [
@@ -776,405 +774,142 @@
       "Puja",
       "Party"
     ],
-    "description": "Magenta Rajshahi silk saree with a gold woven border, draped on a form",
-    "source": "https://commons.wikimedia.org/wiki/File:Rajshahi_silk.jpg",
-    "sourceTitle": "Rajshahi silk.jpg",
-    "author": "Masum-al-hasan",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Magenta silk saree with a blue and gold border, draped on a mannequin",
+    "source": "Supplied by the owner on 2026-10-23 (original file 33.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "rajshahi-silk-red-green-01.webp",
-    "thumb": "rajshahi-silk-red-green-01-480.webp",
-    "sareeType": "Rajshahi silk",
-    "fabric": "Silk",
-    "weave": "Woven border, contrast anchal",
+    "file": "tia-beguni-check-silk.webp",
+    "thumb": "tia-beguni-check-silk-480.webp",
+    "sareeType": "Half-silk / Soft silk",
+    "fabric": "Half-silk",
+    "weave": "Woven checks, purple zari border",
     "colours": [
-      "Red",
-      "Green"
+      "Green",
+      "Purple",
+      "Gold"
     ],
     "occasion": [
-      "Eid",
+      "Holud",
       "Puja",
-      "Party"
+      "Eid"
     ],
-    "description": "Red Rajshahi silk saree with a green-and-gold anchal, draped on a form",
-    "source": "https://commons.wikimedia.org/wiki/File:Rajshahi_silk_(1).jpg",
-    "sourceTitle": "Rajshahi silk (1).jpg",
-    "author": "Masum-al-hasan",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Lime green checked saree with a purple zari border, worn with a purple blouse",
+    "source": "Supplied by the owner on 2026-10-23 (original file 34.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "rajshahi-silk-pink-01.webp",
-    "thumb": "rajshahi-silk-pink-01-480.webp",
+    "file": "genda-holud-silk.webp",
+    "thumb": "genda-holud-silk-480.webp",
     "sareeType": "Rajshahi silk",
     "fabric": "Silk",
-    "weave": "Plain weave, piece-dyed",
+    "weave": "Purple zari border, tasselled pallu",
     "colours": [
-      "Pink"
+      "Yellow",
+      "Purple",
+      "Gold"
     ],
     "occasion": [
-      "Everyday",
-      "Office"
+      "Holud",
+      "Puja",
+      "Eid"
     ],
-    "description": "Dyed pink Rajshahi silk fabric drying at Sopura Silk Mills, Rajshahi",
-    "source": "https://commons.wikimedia.org/wiki/File:Rajshahi_silk_fabric,_Sopura_Silk_Mills_Ltd_(01).jpg",
-    "sourceTitle": "Rajshahi silk fabric, Sopura Silk Mills Ltd (01).jpg",
-    "author": "Moheen Reeyad",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Marigold yellow silk saree with a purple zari border, worn with a purple blouse",
+    "source": "Supplied by the owner on 2026-10-23 (original file 35.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "rajshahi-silk-teal-01.webp",
-    "thumb": "rajshahi-silk-teal-01-480.webp",
-    "sareeType": "Rajshahi silk",
-    "fabric": "Silk",
-    "weave": "Plain weave, piece-dyed",
-    "colours": [
-      "Teal"
-    ],
-    "occasion": [
-      "Everyday",
-      "Office"
-    ],
-    "description": "Dyed teal Rajshahi silk fabric stretched to dry at Sopura Silk Mills, Rajshahi",
-    "source": "https://commons.wikimedia.org/wiki/File:Rajshahi_silk_fabric,_Sopura_Silk_Mills_Ltd_(02).jpg",
-    "sourceTitle": "Rajshahi silk fabric, Sopura Silk Mills Ltd (02).jpg",
-    "author": "Moheen Reeyad",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "rajshahi-silk-printed-01.webp",
-    "thumb": "rajshahi-silk-printed-01-480.webp",
-    "sareeType": "Rajshahi silk",
-    "fabric": "Silk",
-    "weave": "Hand-printed floral motifs",
+    "file": "beige-khoyeri-monipuri.webp",
+    "thumb": "beige-khoyeri-monipuri-480.webp",
+    "sareeType": "Monipuri",
+    "fabric": "Cotton",
+    "weave": "Light textured weave, contrast border",
     "colours": [
       "Ivory",
+      "Maroon",
       "Gold"
     ],
     "occasion": [
       "Office",
-      "Eid"
+      "Puja",
+      "Everyday"
     ],
-    "description": "Ivory Rajshahi silk with floral motifs on the printing table, Sopura Silk Mills",
-    "source": "https://commons.wikimedia.org/wiki/File:Rajshahi_silk_sopura_silk_mills_(8).jpg",
-    "sourceTitle": "Rajshahi silk sopura silk mills (8).jpg",
-    "author": "Aashaa",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Beige textured saree with a maroon and gold border and tassels",
+    "source": "Supplied by the owner on 2026-10-23 (original file 36.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "rajshahi-silk-printed-02.webp",
-    "thumb": "rajshahi-silk-printed-02-480.webp",
-    "sareeType": "Rajshahi silk",
-    "fabric": "Silk",
-    "weave": "Hand-printed floral motifs",
+    "file": "nil-paar-tangail.webp",
+    "thumb": "nil-paar-tangail-480.webp",
+    "sareeType": "Tangail tant",
+    "fabric": "Cotton",
+    "weave": "Handloom, navy zari paar",
     "colours": [
       "Ivory",
+      "Blue",
       "Gold"
     ],
     "occasion": [
       "Office",
-      "Eid"
-    ],
-    "description": "Floral-printed Rajshahi silk on the printing table, Sopura Silk Mills",
-    "source": "https://commons.wikimedia.org/wiki/File:Rajshahi_silk_sopura_silk_mills_(10).jpg",
-    "sourceTitle": "Rajshahi silk sopura silk mills (10).jpg",
-    "author": "Aashaa",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "rajshahi-silk-wax-01.webp",
-    "thumb": "rajshahi-silk-wax-01-480.webp",
-    "sareeType": "Rajshahi silk",
-    "fabric": "Silk",
-    "weave": "Hand-drawn wax (batik) design",
-    "colours": [
-      "Ivory",
-      "Gold"
-    ],
-    "occasion": [
-      "Party",
-      "Eid"
-    ],
-    "description": "Hand-drawn wax design on Rajshahi silk, Sopura Silk Mills, Rajshahi",
-    "source": "https://commons.wikimedia.org/wiki/File:Waxing_on_Rajshahi_silk,_Sopura_Silk_Mills_Ltd_(01).jpg",
-    "sourceTitle": "Waxing on Rajshahi silk, Sopura Silk Mills Ltd (01).jpg",
-    "author": "Moheen Reeyad",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "tangail-white-red-01.webp",
-    "thumb": "tangail-white-red-01-480.webp",
-    "sareeType": "Tangail tant",
-    "fabric": "Cotton (not stated by source)",
-    "weave": "Handloom, floral paar",
-    "colours": [
-      "White",
-      "Red"
-    ],
-    "occasion": [
-      "Pohela Boishakh",
-      "Puja"
-    ],
-    "description": "Red floral border of a Tangail sari from the 1970s (collection of Rabeya Khathun)",
-    "source": "https://commons.wikimedia.org/wiki/File:Border_of_Tangail_sari,from_the_1970s.jpg",
-    "sourceTitle": "Border of Tangail sari,from the 1970s.jpg",
-    "author": "Subornolota",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "tant-stack-01.webp",
-    "thumb": "tant-stack-01-480.webp",
-    "sareeType": "Tangail tant",
-    "fabric": "Cotton",
-    "weave": "Handloom tant",
-    "colours": [
-      "Multicolour"
-    ],
-    "occasion": [
-      "Everyday"
-    ],
-    "description": "Folded tant sarees on shelves at Phulia, Nadia (West Bengal), a weaving centre in the Tangail tant tradition",
-    "source": "https://commons.wikimedia.org/wiki/File:Tant_Sarees_-_Phulia_2016-11-12_1872.JPG",
-    "sourceTitle": "Tant Sarees - Phulia 2016-11-12 1872.JPG",
-    "author": "Biswarup Ganguly",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "tant-rolls-01.webp",
-    "thumb": "tant-rolls-01-480.webp",
-    "sareeType": "Tangail tant",
-    "fabric": "Cotton",
-    "weave": "Handloom tant",
-    "colours": [
-      "Multicolour"
-    ],
-    "occasion": [
-      "Everyday"
-    ],
-    "description": "Rolled tant sarees at Phulia, Nadia (West Bengal)",
-    "source": "https://commons.wikimedia.org/wiki/File:Tant_Sarees_-_Phulia_2016-11-12_1871.JPG",
-    "sourceTitle": "Tant Sarees - Phulia 2016-11-12 1871.JPG",
-    "author": "Biswarup Ganguly",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "tant-pink-01.webp",
-    "thumb": "tant-pink-01-480.webp",
-    "sareeType": "Tangail tant",
-    "fabric": "Cotton",
-    "weave": "Handloom tant, buti",
-    "colours": [
-      "Pink",
-      "Yellow"
-    ],
-    "occasion": [
-      "Everyday",
-      "Pohela Boishakh"
-    ],
-    "description": "Pink tant saree shown to customers at Phulia, Nadia (West Bengal)",
-    "source": "https://commons.wikimedia.org/wiki/File:Paltu_Sarkar_Shows_Tant_Sarees_-_2_Natun_Phulia_-_Nadia_2016-11-12_1857.JPG",
-    "sourceTitle": "Paltu Sarkar Shows Tant Sarees - 2 Natun Phulia - Nadia 2016-11-12 1857.JPG",
-    "author": "Biswarup Ganguly",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "tant-red-01.webp",
-    "thumb": "tant-red-01-480.webp",
-    "sareeType": "Tangail tant",
-    "fabric": "Cotton",
-    "weave": "Handloom tant, buti and zari paar",
-    "colours": [
-      "Red",
-      "Gold"
-    ],
-    "occasion": [
       "Puja",
       "Pohela Boishakh"
     ],
-    "description": "Red tant saree with gold buti, Natun Phulia, Nadia (West Bengal)",
-    "source": "https://commons.wikimedia.org/wiki/File:Customers_Selecting_Tant_Sarees_-_2_Natun_Phulia_-_Nadia_2016-11-12_1914.JPG",
-    "sourceTitle": "Customers Selecting Tant Sarees - 2 Natun Phulia - Nadia 2016-11-12 1914.JPG",
-    "author": "Biswarup Ganguly",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Ivory handloom saree with a navy border woven with gold motifs, worn with a navy blouse",
+    "source": "Supplied by the owner on 2026-10-23 (original file 37.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   },
   {
-    "file": "muslin-ivory-01.webp",
-    "thumb": "muslin-ivory-01-480.webp",
-    "sareeType": "Muslin",
-    "fabric": "Muslin cotton",
-    "weave": "Handwoven, very fine count",
-    "colours": [
-      "Ivory"
-    ],
-    "occasion": [
-      "Wedding",
-      "Party"
-    ],
-    "description": "An ivory muslin saree drawn through a finger ring",
-    "source": "https://commons.wikimedia.org/wiki/File:Moslin_1.jpg",
-    "sourceTitle": "Moslin 1.jpg",
-    "author": "Rangan Datta Wiki",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "muslin-white-blue-01.webp",
-    "thumb": "muslin-white-blue-01-480.webp",
-    "sareeType": "Muslin",
-    "fabric": "Muslin cotton",
-    "weave": "Handwoven, Jamdani-style motifs",
-    "colours": [
-      "White",
-      "Blue"
-    ],
-    "occasion": [
-      "Wedding",
-      "Party"
-    ],
-    "description": "White muslin saree with blue woven motifs, displayed by weaver Sukumar Das",
-    "source": "https://commons.wikimedia.org/wiki/File:Moslin_2.jpg",
-    "sourceTitle": "Moslin 2.jpg",
-    "author": "Rangan Datta Wiki",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "muslin-boxed-01.webp",
-    "thumb": "muslin-boxed-01-480.webp",
-    "sareeType": "Muslin",
-    "fabric": "Muslin cotton",
-    "weave": "Handwoven",
-    "colours": [
-      "White",
-      "Purple"
-    ],
-    "occasion": [
-      "Wedding"
-    ],
-    "description": "Muslin sarees packed in presentation boxes",
-    "source": "https://commons.wikimedia.org/wiki/File:Moslin_4.jpg",
-    "sourceTitle": "Moslin 4.jpg",
-    "author": "Rangan Datta Wiki",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "cotton-orange-print-01.webp",
-    "thumb": "cotton-orange-print-01-480.webp",
+    "file": "khoyeri-kalamkari-cotton.webp",
+    "thumb": "khoyeri-kalamkari-cotton-480.webp",
     "sareeType": "Cotton (everyday)",
     "fabric": "Cotton",
-    "weave": "Printed",
+    "weave": "Printed floral border and pallu",
     "colours": [
-      "Orange",
-      "Cream"
+      "Maroon",
+      "Black"
     ],
     "occasion": [
-      "Everyday",
       "Office",
-      "Puja"
+      "Everyday"
     ],
-    "description": "Folded orange printed cotton saree, Kolkata",
-    "source": "https://commons.wikimedia.org/wiki/File:Cotton_Sarees_-_Kolkata_2003-10-30_00527.JPG",
-    "sourceTitle": "Cotton Sarees - Kolkata 2003-10-30 00527.JPG",
-    "author": "Biswarup Ganguly",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
+    "description": "Maroon cotton saree with a black and rust floral printed border",
+    "source": "Supplied by the owner on 2026-10-23 (original file 38.jpg)",
+    "author": "TODO(client): photographer / owner",
+    "license": "TODO(client): confirm the store may use this photo",
+    "licenseUrl": "",
+    "changes": "Cropped to 3:4 portrait and converted to WebP, plus a 480 px thumbnail",
     "downloadedAt": "2026-10-23",
     "inStore": true,
-    "todo": "TODO(client): replace with the client's own photoshoot"
-  },
-  {
-    "file": "saree-drying-narayanganj-01.webp",
-    "thumb": "saree-drying-narayanganj-01-480.webp",
-    "sareeType": "Unverified",
-    "fabric": "Unknown",
-    "weave": "Unknown",
-    "colours": [
-      "Multicolour"
-    ],
-    "occasion": [],
-    "description": "Rows of fabric laid out to dry in a field in Narayanganj (type not identifiable)",
-    "source": "https://commons.wikimedia.org/wiki/File:Traditional_Saree_Drying.jpg",
-    "sourceTitle": "Traditional Saree Drying.jpg",
-    "author": "Joysaha.bd",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "changes": "Cropped to 3:4 portrait, resized (1600 px long side where the original allowed) and converted to WebP, plus a 480 px thumbnail",
-    "downloadedAt": "2026-10-23",
-    "inStore": false,
-    "todo": "TODO(client): replace with the client's own photoshoot"
+    "clientPhoto": true
   }
 ]

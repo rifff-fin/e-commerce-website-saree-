@@ -42,18 +42,18 @@ It is a **demo store**: payments are simulated and orders are never fulfilled.
    live only in component state (`CheckoutPage`, `WalletMock`). `createOrder` sends the method
    name only; `validateOrder` builds the order from whitelisted fields. Demo values: card
    `4242…`, wallet code `123456`, PIN `12345`.
-3. **Photos are honest.** Only Unsplash, Pexels or Wikimedia Commons (CC0 / CC BY / CC BY-SA)
-   photos, each recorded in `content/images.json` and credited on `/credits`. Label a photo
-   only by what it shows; if the weave cannot be confirmed, `"sareeType": "Unverified"` and keep
-   it out of the store. Never AI images or photos from other stores. Each product image keeps
-   its `credit`; client photos have `credit: null`.
+3. **Photos.** The store uses the owner's photos (supplied 2026-10-23), one per saree, each
+   recorded in `content/images.json` with `clientPhoto: true` and `credit: null`; their usage
+   rights are `TODO(client)`. Any third-party photo added later must be CC0 / CC BY / CC BY-SA
+   (Unsplash, Pexels or Wikimedia Commons), carry a `credit`, and is then listed on `/credits`.
+   New photos: drop them in `photos-inbox/` and run `npm run photos` in `backend/`.
 4. **Photo files.** `frontend/public/products/<name>.webp` (3:4, 1200×1600 max) plus
    `<name>-480.webp`; Cloudinary uploads from the admin are resized by URL (`lib/images.ts`).
 5. **Never empty.** If the API cannot be reached, `services/fallback.ts` switches to
    `content/demoCatalog.json` (written by `npm run export:demo`; ids are stable hashes of the
    slug). Re-export after editing `backend/data/`.
-6. **Seed catalog** `backend/data/products.js` is generated from the photo records (the
-   generator lives outside the repo); edit it by hand or through the admin panel.
+6. **Seed catalog** `backend/data/products.js` (37 sarees) was generated once from the photo
+   records; edit it by hand or through the admin panel, then `npm run export:demo`.
 7. **Sample content is labelled.** Reviews say they are samples; unconfirmed facts (names,
    prices, contacts, policies) carry `TODO(client)` in `copy.ts`.
 8. **Motion.** `html[data-reduced]` (set before first paint) drives CSS and JS; the footer
