@@ -1,0 +1,36 @@
+# Render blueprint for the Shari Kotha API (backend/).
+services:
+  - type: web
+    name: shari-kotha-api
+    runtime: node
+    rootDir: backend
+    # sharp (photo script) and the in-memory MongoDB are dev-only: skip them in production
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: '22'
+      - key: MONGODB_URI
+        sync: false # set in the Render dashboard (MongoDB Atlas connection string)
+      - key: MONGODB_DB_NAME
+        value: sharikotha
+      # Secrets: set these in the Render dashboard, never in git
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false
+      - key: CLOUDINARY_API_KEY
+        sync: false
+      - key: CLOUDINARY_API_SECRET
+        sync: false
+      - key: CLOUDINARY_FOLDER
+        value: sharikotha/products
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CLIENT_ORIGIN
+        value: https://sharikotha.netlify.app # TODO(deploy): the Netlify site URL
