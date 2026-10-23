@@ -400,6 +400,18 @@ main:focus {
   z-index: 40;
 }
 
+.fin-motion-widget {
+  position: fixed;
+  right: 16px;
+  bottom: 130px;
+  z-index: 41;
+  display: none;
+}
+
+.fin-credit.is-motion-open .fin-motion-widget {
+  display: block;
+}
+
 .fin-badge {
   padding: 7px 12px;
   border: 1px solid var(--line-strong);
@@ -416,23 +428,10 @@ main:focus {
   border-color: var(--ink);
 }
 
-.fin-popovers {
+.fin-card {
   position: absolute;
   left: 0;
-  bottom: 100%;
-  display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-}
-
-.fin-credit:hover .fin-popovers,
-.fin-credit:focus-within .fin-popovers,
-.fin-credit.is-open .fin-popovers {
-  display: flex;
-}
-
-.fin-card {
+  bottom: calc(100% + 10px);
   width: 250px;
   padding: 18px 18px 16px;
   border: 1px solid var(--line);
