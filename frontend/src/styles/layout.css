@@ -416,10 +416,23 @@ main:focus {
   border-color: var(--ink);
 }
 
-.fin-card {
+.fin-popovers {
   position: absolute;
   left: 0;
-  bottom: calc(100% + 10px);
+  bottom: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.fin-credit:hover .fin-popovers,
+.fin-credit:focus-within .fin-popovers,
+.fin-credit.is-open .fin-popovers {
+  display: flex;
+}
+
+.fin-card {
   width: 250px;
   padding: 18px 18px 16px;
   border: 1px solid var(--line);
@@ -442,8 +455,18 @@ main:focus {
   font-weight: 500;
 }
 
+.fin-motion-card {
+  width: max-content;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--paper-3);
+  box-shadow: var(--shadow);
+}
+
 .fin-motion {
-  margin-top: 12px;
+  display: block;
+  margin: 0;
   padding: 7px 10px;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius);

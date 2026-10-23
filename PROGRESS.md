@@ -121,7 +121,8 @@ identifiable).
 ### 2026-10-23: motion preference
 
 - Motion now defaults to on, with explicit off and system-following preferences still available.
-- Added a motion toggle to the Fin Projukti badge popover, which opens on hover or click.
+- Added a separate motion toggle box above the Fin Projukti badge; it appears on hover or focus,
+  while clicking the badge opens its contact card.
 
 ### 2026-10-23 (later): owner's photos
 

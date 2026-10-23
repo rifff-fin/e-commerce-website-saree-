@@ -430,6 +430,7 @@ export const chat = {
 
 export const finCredit = {
   badge: 'Built by Fin Projukti',
+  motionLabel: 'Motion controls',
   turnOnMotion: 'Turn on motion',
   turnOffMotion: 'Turn off motion',
   title: 'Want a website like this?',

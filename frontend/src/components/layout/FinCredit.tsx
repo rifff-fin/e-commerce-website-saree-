@@ -3,7 +3,7 @@ import { finCredit } from '../../content/copy';
 import { isReducedMotion, setMotionPref, subscribeMotion } from '../../lib/motion';
 import { Icon } from '../ui/Icon';
 
-/** "Built by Fin Projukti" corner badge; tapping it opens a small contact card. */
+/** The Fin Projukti badge opens its contact card; hovering also reveals motion controls. */
 export function FinCredit() {
   const [open, setOpen] = useState(false);
   const root = useRef<HTMLDivElement>(null);
@@ -26,24 +26,41 @@ export function FinCredit() {
   }, [open]);
 
   return (
-    <div className="fin-credit" ref={root} onMouseLeave={() => setOpen(false)}>
-      {open && (
-        <div className="fin-card" id="fin-card" role="region" aria-label={finCredit.badge}>
-          <button
-            type="button"
-            className="fin-close"
-            onClick={() => setOpen(false)}
-            aria-label={finCredit.close}
-          >
-            <Icon name="close" />
-          </button>
-          <p className="fin-title">{finCredit.title}</p>
-          <p>
-            {finCredit.body}{' '}
-            <a href={finCredit.href} target="_blank" rel="noopener">
-              {finCredit.link}
-            </a>
-          </p>
+    <div
+      className={`fin-credit${open ? ' is-open' : ''}`}
+      ref={root}
+      onMouseLeave={() => setOpen(false)}
+    >
+      <button
+        type="button"
+        className="fin-badge"
+        onClick={() => setOpen((value) => !value)}
+        aria-expanded={open}
+        aria-controls="fin-card"
+      >
+        {finCredit.badge}
+      </button>
+      <div className="fin-popovers">
+        {open && (
+          <div className="fin-card" id="fin-card" role="region" aria-label={finCredit.badge}>
+            <button
+              type="button"
+              className="fin-close"
+              onClick={() => setOpen(false)}
+              aria-label={finCredit.close}
+            >
+              <Icon name="close" />
+            </button>
+            <p className="fin-title">{finCredit.title}</p>
+            <p>
+              {finCredit.body}{' '}
+              <a href={finCredit.href} target="_blank" rel="noopener">
+                {finCredit.link}
+              </a>
+            </p>
+          </div>
+        )}
+        <div className="fin-motion-card" role="group" aria-label={finCredit.motionLabel}>
           <button
             type="button"
             className="fin-motion"
@@ -53,17 +70,7 @@ export function FinCredit() {
             {reduced ? finCredit.turnOnMotion : finCredit.turnOffMotion}
           </button>
         </div>
-      )}
-      <button
-        type="button"
-        className="fin-badge"
-        onClick={() => setOpen(true)}
-        onMouseEnter={() => setOpen(true)}
-        aria-expanded={open}
-        aria-controls="fin-card"
-      >
-        {finCredit.badge}
-      </button>
+      </div>
     </div>
   );
 }
