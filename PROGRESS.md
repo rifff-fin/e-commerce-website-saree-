@@ -121,8 +121,8 @@ identifiable).
 ### 2026-10-23: motion preference
 
 - Motion now defaults to on, with explicit off and system-following preferences still available.
-- Added a motion toggle that appears above the bottom-right chat controls when the Fin Projukti
-  badge is hovered or focused.
+- Added an always-visible motion toggle above the bottom-right chat controls, independent of the
+  Fin Projukti badge.
 
 ### 2026-10-23 (later): owner's photos
 

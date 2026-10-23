@@ -6,23 +6,16 @@ import { Icon } from '../ui/Icon';
 /** "Built by Fin Projukti" corner badge; tapping it opens a small contact card. */
 export function FinCredit() {
   const [open, setOpen] = useState(false);
-  const [motionOpen, setMotionOpen] = useState(false);
   const root = useRef<HTMLDivElement>(null);
   const reduced = useSyncExternalStore(subscribeMotion, isReducedMotion);
 
   useEffect(() => {
-    if (!open && !motionOpen) return;
+    if (!open) return;
     const onDown = (event: PointerEvent) => {
-      if (!root.current?.contains(event.target as Node)) {
-        setOpen(false);
-        setMotionOpen(false);
-      }
+      if (!root.current?.contains(event.target as Node)) setOpen(false);
     };
     const onKey = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
-        setOpen(false);
-        setMotionOpen(false);
-      }
+      if (event.key === 'Escape') setOpen(false);
     };
     document.addEventListener('pointerdown', onDown);
     document.addEventListener('keydown', onKey);
@@ -30,11 +23,11 @@ export function FinCredit() {
       document.removeEventListener('pointerdown', onDown);
       document.removeEventListener('keydown', onKey);
     };
-  }, [open, motionOpen]);
+  }, [open]);
 
   return (
     <div
-      className={`fin-credit${open ? ' is-open' : ''}${motionOpen ? ' is-motion-open' : ''}`}
+      className={`fin-credit${open ? ' is-open' : ''}`}
       ref={root}
       onMouseLeave={() => setOpen(false)}
     >
@@ -60,12 +53,7 @@ export function FinCredit() {
       <button
         type="button"
         className="fin-badge"
-        onClick={() => {
-          setOpen((value) => !value);
-          setMotionOpen(true);
-        }}
-        onMouseEnter={() => setMotionOpen(true)}
-        onFocus={() => setMotionOpen(true)}
+        onClick={() => setOpen((value) => !value)}
         aria-expanded={open}
         aria-controls="fin-card"
       >
@@ -77,10 +65,7 @@ export function FinCredit() {
             type="button"
             className="fin-motion"
             aria-pressed={!reduced}
-            onClick={() => {
-              setMotionPref(reduced ? 'on' : 'off');
-              setMotionOpen(false);
-            }}
+            onClick={() => setMotionPref(reduced ? 'on' : 'off')}
           >
             {reduced ? finCredit.turnOnMotion : finCredit.turnOffMotion}
           </button>

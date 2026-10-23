@@ -405,10 +405,6 @@ main:focus {
   right: 16px;
   bottom: 130px;
   z-index: 41;
-  display: none;
-}
-
-.fin-credit.is-motion-open .fin-motion-widget {
   display: block;
 }
 
