@@ -32,9 +32,9 @@
     <!-- Motion preference before first paint (see src/lib/motion.ts) -->
     <script>
       (function () {
-        var pref = 'auto';
+        var pref = 'on';
         try {
-          pref = localStorage.getItem('sk:motion') || 'auto';
+          pref = localStorage.getItem('sk:motion') || 'on';
         } catch (e) {}
         var reduce =
           pref === 'off' ||

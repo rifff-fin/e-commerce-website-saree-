@@ -442,6 +442,20 @@ main:focus {
   font-weight: 500;
 }
 
+.fin-motion {
+  margin-top: 12px;
+  padding: 7px 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--ink);
+  font-size: 12px;
+}
+
+.fin-motion:hover {
+  border-color: var(--ink);
+}
+
 .fin-close {
   position: absolute;
   top: 6px;

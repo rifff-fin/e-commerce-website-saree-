@@ -103,18 +103,20 @@ identifiable).
 - Real prices, names, fabrics and origins for each saree; blouse-piece facts.
 - Delivery times, exchange policy and courier (FAQ and product page carry `TODO(client)`).
 - Real reviews (the homepage shows labelled samples).
-- Accounts: MongoDB Atlas URI, Cloudinary keys, admin email and password, a git remote.
+- Accounts: MongoDB Atlas URI, Cloudinary keys, admin email and password.
 
 ## Next
 
-1. Owner adds the git remote; push.
-2. Create Atlas + Cloudinary, fill `backend/.env` (and Render env), test a real Cloudinary
-   upload from `/admin` (not tested yet: no keys).
-3. Deploy the API on Render, put its URL in `netlify.toml`, deploy the store on Netlify.
-4. Replace placeholder photos with the client's shoot.
-5. Pick extras from `docs/feature-checklist.md`.
+1. Set up Atlas + Cloudinary, fill `backend/.env` (and Render env), and test a real admin upload.
+2. Deploy the API on Render and the store on Netlify.
+3. Pick extras from `docs/feature-checklist.md`.
 
 ## Log
+
+### 2026-10-23: motion preference
+
+- Motion now defaults to on, with explicit off and system-following preferences still available.
+- Added a motion toggle to the Fin Projukti badge popover, which opens on hover or click.
 
 ### 2026-10-23 (later): owner's photos
 

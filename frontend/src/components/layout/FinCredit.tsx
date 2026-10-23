@@ -1,11 +1,13 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import { finCredit } from '../../content/copy';
+import { isReducedMotion, setMotionPref, subscribeMotion } from '../../lib/motion';
 import { Icon } from '../ui/Icon';
 
 /** "Built by Fin Projukti" corner badge; tapping it opens a small contact card. */
 export function FinCredit() {
   const [open, setOpen] = useState(false);
   const root = useRef<HTMLDivElement>(null);
+  const reduced = useSyncExternalStore(subscribeMotion, isReducedMotion);
 
   useEffect(() => {
     if (!open) return;
@@ -24,7 +26,7 @@ export function FinCredit() {
   }, [open]);
 
   return (
-    <div className="fin-credit" ref={root}>
+    <div className="fin-credit" ref={root} onMouseLeave={() => setOpen(false)}>
       {open && (
         <div className="fin-card" id="fin-card" role="region" aria-label={finCredit.badge}>
           <button
@@ -42,12 +44,21 @@ export function FinCredit() {
               {finCredit.link}
             </a>
           </p>
+          <button
+            type="button"
+            className="fin-motion"
+            aria-pressed={!reduced}
+            onClick={() => setMotionPref(reduced ? 'on' : 'off')}
+          >
+            {reduced ? finCredit.turnOnMotion : finCredit.turnOffMotion}
+          </button>
         </div>
       )}
       <button
         type="button"
         className="fin-badge"
-        onClick={() => setOpen((v) => !v)}
+        onClick={() => setOpen(true)}
+        onMouseEnter={() => setOpen(true)}
         aria-expanded={open}
         aria-controls="fin-card"
       >

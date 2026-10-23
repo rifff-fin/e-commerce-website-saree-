@@ -1,8 +1,8 @@
 import { readPref, writePref } from './storage';
 
 /**
- * Motion preference. 'auto' follows the OS (prefers-reduced-motion); the footer's Motion
- * switch can force it on or off. The current state lives on <html data-reduced> (set before
+ * Motion defaults to on. 'auto' follows the OS (prefers-reduced-motion) when selected in the
+ * footer; 'off' disables motion. The current state lives on <html data-reduced> (set before
  * first paint by index.html), which CSS and JS both read.
  */
 export type MotionPref = 'auto' | 'on' | 'off';
@@ -13,7 +13,7 @@ const listeners = new Set<() => void>();
 
 export const getMotionPref = (): MotionPref => {
   const pref = readPref(KEY);
-  return pref === 'on' || pref === 'off' ? pref : 'auto';
+  return pref === 'auto' || pref === 'off' ? pref : 'on';
 };
 
 const computeReduced = () => {
