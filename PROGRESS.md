@@ -113,6 +113,11 @@ identifiable).
 
 ## Log
 
+### 2026-10-23: hero photo carousel
+
+- Replaced the three mixed hero photos with the four supplied photos and updated their alt text.
+- Removed the source folder after verifying all four files were copied into `frontend/public/hero/`.
+
 ### 2026-10-23: motion preference
 
 - Motion now defaults to on, with explicit off and system-following preferences still available.

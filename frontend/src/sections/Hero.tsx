@@ -2,17 +2,34 @@ import { useEffect, useState, useSyncExternalStore } from 'react';
 import { Link } from 'react-router';
 import { brand, hero } from '../content/copy';
 import { demoBanners } from '../lib/demoStore';
-import { fullOf } from '../lib/images';
 import { isReducedMotion, subscribeMotion } from '../lib/motion';
 import { getBanners } from '../services/storeService';
 import { Icon } from '../components/ui/Icon';
 import type { Banner } from '../types';
 
 const SLIDE_MS = 6500;
+const HERO_IMAGES = [
+  {
+    src: '/hero/hero-look-1.jpg',
+    alt: 'Woman wearing a dusty rose saree in a sunlit room',
+  },
+  {
+    src: '/hero/hero-look-2.jpg',
+    alt: 'Woman wearing a dark burgundy saree in a garden courtyard',
+  },
+  {
+    src: '/hero/hero-look-3.jpg',
+    alt: 'Woman wearing a pastel pink saree with a gold border',
+  },
+  {
+    src: '/hero/hero-look-4.jpg',
+    alt: 'Woman wearing an olive green saree in a warm interior',
+  },
+] as const;
 
 /**
- * Editorial hero: one strong serif line beside a tall portrait that slowly cross-fades
- * between the admin's banners. The headline follows the current banner.
+ * Editorial hero: one strong serif line beside a tall portrait that cross-fades through four
+ * local photos. The headline follows the current banner.
  */
 export function Hero() {
   const [banners, setBanners] = useState<Banner[]>(demoBanners);
@@ -32,7 +49,7 @@ export function Hero() {
     };
   }, []);
 
-  const count = banners.length;
+  const count = HERO_IMAGES.length;
   const playing = count > 1 && !paused && !reduced;
   useEffect(() => {
     if (!playing) return;
@@ -40,7 +57,7 @@ export function Hero() {
     return () => window.clearInterval(timer);
   }, [playing, count]);
 
-  const current = banners[index % count] ?? banners[0];
+  const current = banners[index % banners.length] ?? banners[0];
 
   return (
     <section className="hero" aria-label="Featured">
@@ -65,11 +82,11 @@ export function Hero() {
 
         <div className="hero-media">
           <div className="hero-frame">
-            {banners.map((banner, i) => (
+            {HERO_IMAGES.map((image, i) => (
               <img
-                key={banner._id}
-                src={i === 0 ? '/hero-saree.jpg' : fullOf(banner.image)}
-                alt={i === 0 ? 'Woman wearing a rose pink saree in a sunlit room' : banner.alt}
+                key={image.src}
+                src={image.src}
+                alt={image.alt}
                 className={i === index % count ? 'is-active' : ''}
                 aria-hidden={i !== index % count}
                 width={1200}
@@ -92,13 +109,13 @@ export function Hero() {
                 <span className="hero-count" aria-hidden="true">
                   {String((index % count) + 1).padStart(2, '0')} / {String(count).padStart(2, '0')}
                 </span>
-                {banners.map((banner, i) => (
+                {HERO_IMAGES.map((image, i) => (
                   <button
-                    key={banner._id}
+                    key={image.src}
                     type="button"
                     className={i === index % count ? 'is-active' : ''}
                     onClick={() => setIndex(i)}
-                    aria-label={`Show look ${i + 1}: ${banner.title}`}
+                    aria-label={`Show hero photo ${i + 1}`}
                     aria-current={i === index % count}
                   />
                 ))}
