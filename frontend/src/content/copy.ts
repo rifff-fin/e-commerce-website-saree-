@@ -3,8 +3,8 @@
 // Labels shown in both languages are { en, bn } pairs (see store/langStore.ts).
 
 export const brand = {
-  name: 'Shari Kotha', // TODO(client): working name until the client confirms
-  nameBn: 'শাড়ি কথা',
+  name: "Moon's Wardrobe",
+  nameBn: 'মুন’স ওয়ারড্রোব',
   tagline: 'Woven for every celebration', // TODO(client)
   // TODO(client): real contact details. Empty values hide the number and show a notice.
   phone: '',
@@ -13,7 +13,7 @@ export const brand = {
   email: '',
   address: 'Dhaka, Bangladesh', // TODO(client): showroom address
   hours: 'Every day, 10 am to 9 pm', // TODO(client)
-  instagram: '@sharikotha', // TODO(client)
+  instagram: '', // TODO(client): confirm the official Instagram handle
 };
 
 export const demo = {
@@ -390,7 +390,7 @@ export const wishlist = {
 export const credits = {
   title: 'Photo credits',
   // TODO(client): confirm the store owns or is licensed to use every product photo
-  own: 'All product photos on this site belong to Shari Kotha or are used with permission.',
+  own: "All product photos on this site belong to Moon's Wardrobe or are used with permission.",
   intro:
     'The photos in this store are placeholders, used under the licences below until the client’s own photoshoot replaces them. Each was cropped to a 3:4 portrait and converted to WebP. Thank you to every photographer who shares their work.',
   by: 'by',

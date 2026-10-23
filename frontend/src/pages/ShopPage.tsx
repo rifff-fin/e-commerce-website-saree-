@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router';
-import { nav, shop as copy } from '../content/copy';
+import { brand, nav, shop as copy } from '../content/copy';
 import { useDebouncedValue } from '../hooks/useDebouncedValue';
 import { useMeta } from '../hooks/useMeta';
 import { useProducts } from '../hooks/useProducts';
@@ -48,7 +48,7 @@ export function ShopPage() {
       : undefined;
 
   useEffect(() => {
-    document.title = `${typeName?.name ?? copy.title} | Shari Kotha`;
+    document.title = `${typeName?.name ?? copy.title} | ${brand.name}`;
   }, [typeName]);
 
   const clear = () => {

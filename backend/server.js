@@ -43,7 +43,7 @@ app.use(express.json({ limit: '50kb' }));
 
 // Test Route
 app.get('/', (req, res) => {
-  res.status(200).json({ success: true, message: 'Shari Kotha API is running' });
+  res.status(200).json({ success: true, message: "Moon's Wardrobe API is running" });
 });
 
 app.get('/api/health', (req, res) => {
@@ -76,7 +76,7 @@ const start = async () => {
       console.error(`❌ Could not start on port ${PORT}:`, error.message);
       process.exit(1);
     }
-    console.log(`🚀 Shari Kotha API running on http://localhost:${PORT}`);
+    console.log(`🚀 Moon's Wardrobe API running on http://localhost:${PORT}`);
   });
 };
 

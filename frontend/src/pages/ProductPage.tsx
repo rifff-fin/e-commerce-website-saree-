@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router';
-import { notFound, product as copy, sections } from '../content/copy';
+import { brand, notFound, product as copy, sections } from '../content/copy';
 import { isAborted } from '../lib/api';
 import { useMeta } from '../hooks/useMeta';
 import { getProduct } from '../services/productService';
@@ -30,7 +30,7 @@ function useShareMeta(data: ProductDetailResponse | null) {
   useEffect(() => {
     if (!data) return;
     const { product } = data;
-    document.title = `${product.name} | ${product.type} | Shari Kotha`;
+    document.title = `${product.name} | ${product.type} | ${brand.name}`;
     const set = (property: string, content: string) => {
       let tag = document.head.querySelector<HTMLMetaElement>(`meta[property="${property}"]`);
       if (!tag) {

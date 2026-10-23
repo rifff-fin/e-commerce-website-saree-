@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router';
-import { notFound } from '../content/copy';
+import { brand, notFound } from '../content/copy';
 import { Faq } from '../sections/Faq';
 
 export function FaqPage() {
   useEffect(() => {
-    document.title = 'FAQ | Shari Kotha';
+    document.title = `FAQ | ${brand.name}`;
   }, []);
   return (
     <div className="faq-page">
@@ -16,7 +16,7 @@ export function FaqPage() {
 
 export function NotFoundPage() {
   useEffect(() => {
-    document.title = 'Not found | Shari Kotha';
+    document.title = `Not found | ${brand.name}`;
   }, []);
   return (
     <div className="wrap page-message">

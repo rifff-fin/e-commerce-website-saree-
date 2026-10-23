@@ -1,6 +1,6 @@
 import { useEffect, useState, type FormEvent } from 'react';
 import { Link } from 'react-router';
-import { track as copy } from '../content/copy';
+import { brand, track as copy } from '../content/copy';
 import { apiErrorMessage } from '../lib/api';
 import { isBdMobile, LAST_ORDER_KEY, normalizePhone, paymentLabel } from '../lib/checkout';
 import { formatDayRange, formatTaka } from '../lib/format';
@@ -32,7 +32,7 @@ export function TrackOrderPage() {
   const [order, setOrder] = useState<Order | null>(null);
 
   useEffect(() => {
-    document.title = 'Track your order | Shari Kotha';
+    document.title = `Track your order | ${brand.name}`;
   }, []);
 
   const submit = async (event: FormEvent) => {

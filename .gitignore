@@ -1,28 +1,42 @@
 # Dependencies
 node_modules/
 
-# Build output
+# Build output and framework caches
 dist/
 build/
-
-# Vite cache
 .vite/
+.next/
+.turbo/
+.netlify/
+.vercel/
 
-# Environment variables
+# Local environment files and secrets
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
 
 # Logs
-npm-debug.log*
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Editor / OS
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+# Test and coverage output
+coverage/
+playwright-report/
+test-results/
+blob-report/
 
-# QA screenshots and raw client photos (processed photos live in frontend/public/products)
+# Local uploads and QA inputs
+uploads/
 qa/
 photos-inbox/
+
+# Editor and operating system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

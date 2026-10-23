@@ -1,4 +1,4 @@
-# Shari Kotha — progress
+# Moon's Wardrobe — progress
 
 Saree-only store for a Bangladeshi women's fashion brand, built by Fin Projukti.
 Brief: `prompt-saree-store.md`. Rules: `CLAUDE.md`.
@@ -6,7 +6,7 @@ Brief: `prompt-saree-store.md`. Rules: `CLAUDE.md`.
 ## Status (2026-10-23)
 
 **Working end to end in development** (API + store + admin), verified in a headless browser.
-Not deployed yet; no git remote configured.
+Not deployed yet; GitHub origin is configured.
 
 | Area | State |
 |---|---|
@@ -50,7 +50,7 @@ as the single accent (the suggested `#B5576F` is 4.2:1 on the blush, below AA fo
 
 ## Decisions
 
-- **Working name "Shari Kotha"** (শাড়ি কথা) and the suggested tagline, both `TODO(client)`.
+- **Brand name "Moon's Wardrobe"** (মুন’স ওয়ারড্রোব); confirm the tagline with the client.
 - **Photos only from Wikimedia Commons.** Unsplash and Pexels block automated access (bot
   challenge pages), so none were taken from there. Only CC0, CC BY and CC BY-SA files were used;
   "Public domain" (PD-self etc.), GODL-India and uploads by other saree shops were skipped.

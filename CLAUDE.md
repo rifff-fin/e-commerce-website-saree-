@@ -1,11 +1,11 @@
-# Shari Kotha — project brief for Claude Code
+# Moon's Wardrobe — project brief for Claude Code
 
 Client store built by **Fin Projukti** (finprojukti.tech). Original brief: `prompt-saree-store.md`.
 **Status and log: `PROGRESS.md`. Update it at the end of every piece of work.**
 
 ## What it is
 
-A saree-only fashion store for Bangladesh ("Shari Kotha" is a working name, `TODO(client)`).
+A saree-only fashion store for Bangladesh: Moon's Wardrobe.
 Editorial and feminine: blush paper (`--paper #FBF1F2`), aubergine ink (`--ink #2B1420`), one
 accent, dusty rose `--accent #9E3A57` (the brief's `#B5576F` fails AA for text), gold `#B88A44`
 only for hairlines and the logo. Tokens in `frontend/src/styles/tokens.css`. Type: Cormorant

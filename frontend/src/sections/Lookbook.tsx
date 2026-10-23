@@ -9,7 +9,7 @@ export function Lookbook() {
       <div className="wrap">
         <div className="row-head" data-reveal>
           <h2 id="lookbook-title">{lookbook.title}</h2>
-          <p className="lookbook-handle">{lookbook.handle}</p>
+          {lookbook.handle && <p className="lookbook-handle">{lookbook.handle}</p>}
         </div>
         <ul className="lookbook-grid">
           {lookbook.images.map((image) => (

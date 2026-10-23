@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { credits as copy } from '../content/copy';
+import { brand, credits as copy } from '../content/copy';
 import images from '../../../content/images.json';
 import { thumbOf } from '../lib/images';
 
@@ -19,7 +19,7 @@ interface PhotoRecord {
 /** Every licensed photo used in the store, with author, source and licence. */
 export function CreditsPage() {
   useEffect(() => {
-    document.title = 'Photo credits | Shari Kotha';
+    document.title = `Photo credits | ${brand.name}`;
   }, []);
   // Third-party photos need a credit; the brand's own photos do not
   const records = (images as PhotoRecord[]).filter(

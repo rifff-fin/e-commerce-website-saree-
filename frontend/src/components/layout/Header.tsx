@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router';
-import { demo, nav, shop, weaves as weavesCopy } from '../../content/copy';
+import { brand, demo, nav, shop, weaves as weavesCopy } from '../../content/copy';
 import { useCart, selectCartCount } from '../../store/cartStore';
 import { useSaved } from '../../store/savedStore';
 import { useUi } from '../../store/uiStore';
@@ -151,7 +151,7 @@ export function Header() {
             </nav>
           </div>
 
-          <Link to="/" className="header-logo" aria-label="Shari Kotha, home">
+          <Link to="/" className="header-logo" aria-label={`${brand.name}, home`}>
             <Logo />
           </Link>
 

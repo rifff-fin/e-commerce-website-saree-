@@ -1,6 +1,6 @@
 import { useEffect, useState, type FormEvent } from 'react';
 import { Link } from 'react-router';
-import { checkout as copy } from '../content/copy';
+import { brand, checkout as copy } from '../content/copy';
 import { apiErrorMessage, apiFieldErrors } from '../lib/api';
 import {
   formatCardNumber,
@@ -59,7 +59,7 @@ export function CheckoutPage() {
   const totals = cartTotals(items, zone, coupon);
 
   useEffect(() => {
-    document.title = 'Checkout | Shari Kotha';
+    document.title = `Checkout | ${brand.name}`;
   }, []);
 
   useEffect(() => {

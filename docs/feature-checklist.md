@@ -1,4 +1,4 @@
-# Optional extras for Shari Kotha
+# Optional extras for Moon's Wardrobe
 
 Tick the ones the client wants next. Each is outside the current demo build.
 

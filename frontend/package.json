@@ -1,9 +1,9 @@
 {
-  "name": "shari-kotha-store",
+  "name": "moons-wardrobe-store",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Shari Kotha storefront: a saree-only fashion store for Bangladesh. Built by Fin Projukti.",
+  "description": "Moon's Wardrobe storefront: a saree-only fashion store for Bangladesh. Built by Fin Projukti.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

@@ -68,8 +68,8 @@ export function Hero() {
             {banners.map((banner, i) => (
               <img
                 key={banner._id}
-                src={fullOf(banner.image)}
-                alt={banner.alt}
+                src={i === 0 ? '/hero-saree.jpg' : fullOf(banner.image)}
+                alt={i === 0 ? 'Woman wearing a rose pink saree in a sunlit room' : banner.alt}
                 className={i === index % count ? 'is-active' : ''}
                 aria-hidden={i !== index % count}
                 width={1200}

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router';
-import { wishlist as copy } from '../content/copy';
+import { brand, wishlist as copy } from '../content/copy';
 import { formatTaka } from '../lib/format';
 import { useSaved } from '../store/savedStore';
 import { useT } from '../store/langStore';
@@ -12,7 +12,7 @@ export function WishlistPage() {
   const remove = useSaved((s) => s.removeWish);
 
   useEffect(() => {
-    document.title = 'Wishlist | Shari Kotha';
+    document.title = `Wishlist | ${brand.name}`;
   }, []);
 
   return (

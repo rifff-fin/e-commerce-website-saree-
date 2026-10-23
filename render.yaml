@@ -1,4 +1,4 @@
-# Render blueprint for the Shari Kotha API (backend/).
+# Render blueprint for the Moon's Wardrobe API (backend/).
 services:
   - type: web
     name: shari-kotha-api
