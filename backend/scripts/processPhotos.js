@@ -35,16 +35,17 @@ const run = async () => {
     console.log(`Nothing to do: ${INBOX} has no photos.`);
     return;
   }
+  fs.mkdirSync(OUT, { recursive: true });
   for (const file of files) {
     const name = slugify(path.parse(file).name);
+    // The largest 3:4 box the photo allows, so small photos are cropped but never enlarged
+    const { width: w, height: h } = await sharp(path.join(INBOX, file)).rotate().metadata();
+    const cropWidth = Math.min(w, Math.round((h * 3) / 4));
     for (const size of SIZES) {
+      const width = Math.min(size.width, cropWidth);
       await sharp(path.join(INBOX, file))
         .rotate() // respect the camera's orientation
-        .resize(size.width, size.height, {
-          fit: 'cover',
-          position: 'attention',
-          withoutEnlargement: true,
-        })
+        .resize(width, Math.round((width * 4) / 3), { fit: 'cover', position: 'attention' })
         .webp({ quality: size.quality })
         .toFile(path.join(OUT, `${name}${size.suffix}.webp`));
     }
