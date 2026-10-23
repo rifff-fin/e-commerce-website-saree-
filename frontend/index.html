@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Shari Kotha | Handwoven sarees from Bangladesh</title>
+    <meta
+      name="description"
+      content="Shari Kotha: Jamdani, Katan, Rajshahi silk, Tangail tant and muslin sarees. Cash on Delivery across Bangladesh."
+    />
+    <meta name="theme-color" content="#FBF1F2" />
+    <meta property="og:site_name" content="Shari Kotha" />
+    <meta property="og:title" content="Shari Kotha | Woven for every celebration" />
+    <meta
+      property="og:description"
+      content="Jamdani, Katan, Rajshahi silk and Tangail tant sarees. Cash on Delivery across Bangladesh."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/products/benarasi-ivory-drape-01.webp" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Cormorant Garamond (display), Jost (text), Noto Serif Bengali + Hind Siliguri (Bangla).
+         Google Fonts splits the Bangla families by unicode-range, so they only load when Bangla
+         text is on the page. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500;600&family=Noto+Serif+Bengali:wght@500;600&family=Hind+Siliguri:wght@400;500;600&display=swap"
+    />
+
+    <!-- Motion preference before first paint (see src/lib/motion.ts) -->
+    <script>
+      (function () {
+        var pref = 'auto';
+        try {
+          pref = localStorage.getItem('sk:motion') || 'auto';
+        } catch (e) {}
+        var reduce =
+          pref === 'off' ||
+          (pref === 'auto' && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+        if (reduce) document.documentElement.setAttribute('data-reduced', '');
+        document.documentElement.classList.add('js');
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding: 24px; font-family: sans-serif; color: #2b1420; background: #fbf1f2">
+        Shari Kotha needs JavaScript to run the store. Please enable it and reload.
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
