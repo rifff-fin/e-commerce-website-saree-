@@ -1,0 +1,7 @@
+dist
+node_modules
+package-lock.json
+prompt-saree-store.md
+content/images.json
+frontend/src/content/demoCatalog.json
+backend/data/products.js
